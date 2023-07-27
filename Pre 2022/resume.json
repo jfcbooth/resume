@@ -1,0 +1,155 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "work": "Work",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Achievements",
+    "education": "Education"
+  },
+  "basics": {
+    "name": "Josh Booth",
+    "email": "boothjmail@gmail.com",
+    "phone": "(717) 494-6466",
+    "website": "joshbooth.us",
+    "location": {
+      "address": "Chandler, AZ"
+    }
+  },
+  "education": [
+    {
+      "location": "Shippensburg, PA",
+      "area": "Computer Science; Mathematics minor",
+      "studyType": "BS",
+      "startDate": "Sep 2018",
+      "gpa": "3.98",
+      "institution": "Shippensburg University of Pennsylvania",
+      "endDate": "May 2022"
+    }
+  ],
+  "work": [
+    {
+      "location": "Chandler, AZ",
+      "position": "Technical Marketing Engineer (8-bit MCUs)",
+      "website": "",
+      "startDate": "June 2022",
+      "endDate": "Present",
+      "highlights": [
+        "Top performer for creating applications and educational content to promote NPI",
+        "Lead analytics initiative to generate measures of effectiveness among the team's generated collateral.",
+        "Developed marketing launch plans for upcoming products"
+      ],
+      "company": "Microchip Technology"
+    },
+    {
+      "highlights": [
+        "Protoype engineer for numerous projects including a human-sized, engineering plastic FDM 3D printer and a custom AI-driven remote security system",
+        "Communicated with clients throughout the iterative design process to establish clear expectations and optimal product outcomes",
+        null
+      ],
+      "company": "Booth Oil and Gas LLC.",
+      "position": "Engineering Consultant",
+      "location": "Shippensburg, PA",
+      "startDate": "Sep 2016",
+      "endDate": "June 2022"
+    },
+    {
+      "highlights": [
+        "Researched optimal techniques for using machine learning on satellite imagery to detect/classify objects",
+        "Synthesized data and worked with specialists to internally publish my paper \"Machine Learning in Radio Frequency Communications\"",
+        "Used machine learning to identify promoter sequences in DNA and co-published an infographic on the topic."
+      ],
+      "company": "United States Naval Research Laboratory",
+      "position": "Electrical Engineer Student Trainee",
+      "startDate": "June 2017",
+      "endDate": "Jan 2022",
+      "location": "Washington D.C."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "C, Python, Linux, Microcontrollers, Communication protocols (UART, DMX, CAN, I2C)"
+      ]
+    },
+    {
+      "keywords": [
+        "Git, Fusion 360, Jira, Eagle, Vivado, OrCAD"
+      ],
+      "name": "Software"
+    },
+    {
+      "keywords": [
+        "3D Printing, Mechanical Design, Topic explanation"
+      ],
+      "name": "Other"
+    }
+  ],
+  "projects": [
+    {
+      "name": "The Cold Plate Reference Design",
+      "description": "Showcases the Core Independent Peripherals on the PIC16F17146 MCU. This demo provides a reference design for common tasks 8-bit MCUs are used for, allowing customers to copy aspects of this project in their own designs. It has become Microchip's most viewed repository.",
+      "keywords": [
+        "C"
+      ],
+      "url": "https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc"
+    },
+    {
+      "keywords": [
+        "Python",
+        "C",
+        "Tensorflow",
+        "Bash",
+        "Apache",
+        "Unix"
+      ],
+      "name": "AI-driven security system",
+      "description": "A low-power security system for providing real-time identification and alerts of humans, vehicles, and various animals across a multi-acre ranch",
+      "url": "https://github.com/jfcbooth/security_system"
+    },
+    {
+      "keywords": [
+        "Marlin",
+        "C",
+        "Python",
+        "AutoCAD"
+      ],
+      "name": "3D PEEK Printer",
+      "description": "Human-sized (1'x1'x5') 3D printer capable of printing engineering grade plastics, such as PEEK, for biofuel refinement"
+    }
+  ],
+  "awards": [
+    {
+      "summary": "",
+      "title": "Eagle Scout",
+      "date": "Feb 2018",
+      "awarder": "Boy Scouts of Amerca"
+    },
+    {
+      "title": "PSAC T&F Champion",
+      "date": "May 2021",
+      "awarder": "NCAA"
+    },
+    {
+      "title": "A+ Certified",
+      "date": "Apr 2017",
+      "awarder": "CompTIA"
+    },
+    {
+      "title": "Nationally ranked in Information Technology competition",
+      "date": "Apr 2017",
+      "awarder": "SkillsUSA"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "projects",
+    "skills",
+    "education",
+    "awards"
+  ]
+}

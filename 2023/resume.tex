@@ -1,0 +1,303 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{hyperref}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{Aditya Mujumdar}}\\
+    \vspace{1mm}
+	{\normalsize {Chandler, AZ $\cdot$ adityamujumdar09@gmail.com $\cdot$ 480.679.7613 $\cdot$ \href{https://www.linkedin.com/in/aditya-mujumdar/}{\emph{LinkedIn}}}}\\
+\end{center}
+
+
+
+
+%==== Experience ====%
+\header{\large{Experience}}
+\vspace{1mm}
+
+\textbf{Microchip Technology Inc.} \hfill Chandler, AZ\\
+\textit{Business Intelligence Analyst} \hfill Jun 2021 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Predictive Supply Chain Optimization for 8-bit MCUs
+    \vspace{-1mm}
+        \begin{itemize} \itemsep 1pt
+        \item Led the optimization project for executive management, supply planners and BU Operations to manage constrained production pipelines
+        \item Improved supply health by 14\% and impacted \$200M of constrained material by prioritizing bottlenecked devices and curbing production of well-inventoried devices
+        \item Developed business models for constrained devices in Python which analyzed backlog and production pipelines to forecast wafer starts for future demand 
+        \end{itemize}
+    \item Business Initiatives through Tableau and Analytical Reporting
+    \vspace{-1mm}
+        \begin{itemize} \itemsep 1pt
+        \item Created 16 advanced operational reports in Tableau that facilitated order expedite requests and monitored ordering behaviors and customer analytics
+        \item Recognized an order fulfillment issue which improved new product backlog by 35\% for \$4M of distributor orders
+        \item Improved overall reporting efficiency by 80\%, report accuracy by 15\% by building automation frameworks for data pipelines using Tableau and Python
+        \item Deployed a recovery program for <100K/yr. customers, increasing count by 34\%, and helped increase new product inventory by 27\%
+
+        \end{itemize}
+    \item Marketing Analytics for NPI and corporate Ad-spending
+    \vspace{-1mm}
+        \begin{itemize} \itemsep 1pt
+        \item Introduced new KPIs and built product health dashboards to track New Product Introductions (NPI), their marketing ROI, and market acceptance metrics
+        \item Collaborated with function teams to track detailed device usage information to increase feature adoption rates by 42\%
+        \item Analyzed Google Ads ROI for redundant keywords on incompatible websites which reduced spending by \$110K/yr
+        \item Boosted product website views by 23\% using inference testing and keyword bid increases, resulting in a successful marketing campaign for 7 new products
+        \end{itemize}
+\end{itemize}
+
+\textbf{Arizona State University} \hfill Tempe, AZ\\
+\textit{Graduate Initiatives Analyst} \hfill Sep 2019 - Oct 2020\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Overhauled ETL and data collection pipelines to improve reporting speed by 96\% using Python and VBA scripting
+    \item Received 2 innovation awards for process automation and helping start 5 new graduate programs at ASU
+\end{itemize}
+
+\textbf{Tech Mahindra, Ltd.} \hfill Pune, India\\
+\textit{Data Science Research Intern} \hfill May 2019 - Aug 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Engineered a machine learning model using vector quantization for speech recognition on complex customer-facing datasets with 75\% accuracy
+	\item Designed a linear regression algorithm using sigmoid functions to identify count and names of up to 10 speakers with 80\% accuracy
+\end{itemize}
+
+
+\header{\large{Skills \& Tools}}
+\vspace{1mm}
+\begin{tabular}{ l l }
+	\textbf{Programming}:  Python, SQL, C, C++, VBA, Bash \\
+	\textbf{Tools}: Tableau, Power BI, MS SQL Server, Oracle SQL Developer, Google Analytics, Kibana, Data Studio\\
+\end{tabular}
+\vspace{-1mm}
+
+%==== Education ====%
+\header{\large{Education}}
+\textbf{Arizona State University}\hfill Tempe, AZ\\
+BSE $\cdot$ Computer Systems Engineering $\cdot$ \textit{GPA: 3.7/4.0} \hfill May 2021\\
+Certificate $\cdot$ Applied Business Data Analytics $\cdot$ \textit{GPA: 4.0/4.0} \hfill May 2021\\
+\vspace{2mm}
+
+\ 
+\end{document}\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{hyperref}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf{Aditya Mujumdar}}\\
+    \vspace{1mm}
+	{\normalsize {Chandler, AZ $\cdot$ adityamujumdar09@gmail.com $\cdot$ 480.679.7613 $\cdot$ \href{https://www.linkedin.com/in/aditya-mujumdar/}{\emph{LinkedIn}}}}\\
+\end{center}
+
+
+
+
+%==== Experience ====%
+\header{\large{Experience}}
+\vspace{1mm}
+
+\textbf{Microchip Technology Inc.} \hfill Chandler, AZ\\
+\textit{Business Intelligence Analyst} \hfill Jun 2021 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Predictive Supply Chain Optimization for 8-bit MCUs
+    \vspace{-1mm}
+        \begin{itemize} \itemsep 1pt
+        \item Led the optimization project for executive management, supply planners and BU Operations to manage constrained production pipelines
+        \item Improved supply health by 14\% and impacted \$200M of constrained material by prioritizing bottlenecked devices and curbing production of well-inventoried devices
+        \item Developed business models for constrained devices in Python which analyzed backlog and production pipelines to forecast wafer starts for future demand 
+        \end{itemize}
+    \item Business Initiatives through Tableau and Analytical Reporting
+    \vspace{-1mm}
+        \begin{itemize} \itemsep 1pt
+        \item Created 16 advanced operational reports in Tableau that facilitated order expedite requests and monitored ordering behaviors and customer analytics
+        \item Recognized an order fulfillment issue which improved new product backlog by 35\% for \$4M of distributor orders
+        \item Improved overall reporting efficiency by 80\%, report accuracy by 15\% by building automation frameworks for data pipelines using Tableau and Python
+        \item Deployed a recovery program for <100K/yr. customers, increasing count by 34\%, and helped increase new product inventory by 27\%
+
+        \end{itemize}
+    \item Marketing Analytics for NPI and corporate Ad-spending
+    \vspace{-1mm}
+        \begin{itemize} \itemsep 1pt
+        \item Introduced new KPIs and built product health dashboards to track New Product Introductions (NPI), their marketing ROI, and market acceptance metrics
+        \item Collaborated with function teams to track detailed device usage information to increase feature adoption rates by 42\%
+        \item Analyzed Google Ads ROI for redundant keywords on incompatible websites which reduced spending by \$110K/yr
+        \item Boosted product website views by 23\% using inference testing and keyword bid increases, resulting in a successful marketing campaign for 7 new products
+        \end{itemize}
+\end{itemize}
+
+\textbf{Arizona State University} \hfill Tempe, AZ\\
+\textit{Graduate Initiatives Analyst} \hfill Sep 2019 - Oct 2020\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Overhauled ETL and data collection pipelines to improve reporting speed by 96\% using Python and VBA scripting
+    \item Received 2 innovation awards for process automation and helping start 5 new graduate programs at ASU
+\end{itemize}
+
+\textbf{Tech Mahindra, Ltd.} \hfill Pune, India\\
+\textit{Data Science Research Intern} \hfill May 2019 - Aug 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Engineered a machine learning model using vector quantization for speech recognition on complex customer-facing datasets with 75\% accuracy
+	\item Designed a linear regression algorithm using sigmoid functions to identify count and names of up to 10 speakers with 80\% accuracy
+\end{itemize}
+
+
+\header{\large{Skills \& Tools}}
+\vspace{1mm}
+\begin{tabular}{ l l }
+	\textbf{Programming}:  Python, SQL, C, C++, VBA, Bash \\
+	\textbf{Tools}: Tableau, Power BI, MS SQL Server, Oracle SQL Developer, Google Analytics, Kibana, Data Studio\\
+\end{tabular}
+\vspace{-1mm}
+
+%==== Education ====%
+\header{\large{Education}}
+\textbf{Arizona State University}\hfill Tempe, AZ\\
+BSE $\cdot$ Computer Systems Engineering $\cdot$ \textit{GPA: 3.7/4.0} \hfill May 2021\\
+Certificate $\cdot$ Applied Business Data Analytics $\cdot$ \textit{GPA: 4.0/4.0} \hfill May 2021\\
+\vspace{2mm}
+
+\ 
+\end{document}
