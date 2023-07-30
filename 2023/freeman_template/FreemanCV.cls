@@ -39,6 +39,10 @@
 
 \usepackage{extsizes} % Allows using more default font sizes as a class option
 
+\usepackage{graphicx}
+
+\usepackage{wrapfig}
+
 %----------------------------------------------------------------------------------------
 %	MARGINS
 %----------------------------------------------------------------------------------------

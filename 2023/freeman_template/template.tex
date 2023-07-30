@@ -1,26 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Freeman Curriculum Vitae
-% XeLaTeX Template
-% Version 3.0 (September 3, 2021)
-%
-% This template originates from:
-% https://www.LaTeXTemplates.com
-%
-% Authors:
-% Vel (vel@LaTeXTemplates.com)
-% Alessandro Plasmati
-%
-% License:
-% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
-%
-%!TEX program = xelatex
-% NOTE: this template must be compiled with XeLaTeX rather than PDFLaTeX
-% due to the custom fonts used. The line above should ensure this happens
-% automatically, but if it doesn't, your LaTeX editor should have a simple toggle
-% to switch to using XeLaTeX.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -29,7 +6,12 @@
 	10pt, % Default font size, can be between 8pt and 12pt
 ]{FreemanCV}
 
-\columnratio{0.55, 0.45} % Widths of the two columns, specified here as a ratio summing to 1 to correspond to percentages; adjust as needed for your content 
+
+% Handle images:
+\graphicspath{{./images/}}
+
+
+\columnratio{0.50, 0.50} % Widths of the two columns, specified here as a ratio summing to 1 to correspond to percentages; adjust as needed for your content 
 
 % Headers and footers can be added with the following commands: \lhead{}, \rhead{}, \lfoot{} and \rfoot{}
 % Example right footer:
@@ -45,14 +27,14 @@
 %	YOUR NAME AND CURRICULUM VITAE TITLE
 %----------------------------------------------------------------------------------------
 
-\parbox[][0.11\textheight][c]{\linewidth}{ % Box to hold your name and CV title; change the fixed height as needed to match the colored box to the right
+\parbox[][0.05\textheight][c]{\linewidth}{ % Box to hold your name and CV title; change the fixed height as needed to match the colored box to the right
 	\centering % Horizontally center text
 	
-	{\sffamily\Huge Dr. Gordon Freeman} % Your name
+	{\sffamily\Huge Josh \textbf{Booth}} % Your name
 	
 	\medskip % Vertical whitespace
 	
-	{\cursivefont\Huge\textcolor{headings}{Curriculum Vitae}}
+	%{\cursivefont\Huge\textcolor{headings}{Big Bad Baller}}
 	
 	\vfill % Push content to the top of the box
 }
@@ -61,15 +43,15 @@
 %	MAJOR RESEARCH PROJECT
 %----------------------------------------------------------------------------------------
 
-\section{Doctoral Research}
+% \section{Doctral Resoearch}
 
-{\raggedright\textbf{``Observation of Einstein-Podolsky-Rosen Entanglement on Supraquantum Structures by Induction Through Nonlinear Transuranic Crystal of Extremely Long Wavelength Pulse from Mode-Locked Source Array"}\par}
+% {\raggedright\textbf{``Observation of Einstein-Podolsky-Rosen Entanglement on Supraquantum Structures by Induction Through Nonlinear Transuranic Crystal of Extremely Long Wavelength Pulse from Mode-Locked Source Array"}\par}
 
-\medskip % Vertical whitespace
+% \medskip % Vertical whitespace
 
-My research examined the use of ELW pulses from a mode-locked source array inducted through transuranic crystals to observe entanglement on supraquantum structures. Theoretical advancements included prediction of quantum resonance phenomena including the possibility of resonance cascades. I was motivated to conduct this doctoral research due to my passion for teleportation of matter and I believe I have laid the foundation for further experimental validation and development of practical outcomes.
+% My research examined the use of ELW pulses from a mode-locked source array inducted through transuranic crystals to observe entanglement on supraquantum structures. Theoretical advancements included prediction of quantum resonance phenomena including the possibility of resonance cascades. I was motivated to conduct this doctoral research due to my passion for teleportation of matter and I believe I have laid the foundation for further experimental validation and development of practical outcomes.
 
-\medskip % Extra vertical whitespace before the next section
+% \medskip % Extra vertical whitespace before the next section
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
@@ -91,11 +73,11 @@ My research examined the use of ELW pulses from a mode-locked source array induc
 %------------------------------------------------
 
 \jobentry
-	{Current, from Jan 1995} % Duration
+	{Current, from Jun 2022} % Duration
 	{FT} % FT/PT (full time or part time)
-	{Black Mesa Research Facility} % Employer
-	{Team Leader (Anomalous Materials)} % Job title
-	{As part of this promotion, I began conducting nuclear and subatomic research in the Anomalous Materials department. My team and I are particularly interested in dimensionality and its interaction with spacetime. The focus is on practical outcomes and applications in teleportation and communication with distal locations.} % Description
+	{Microchip Technology} % Employer
+	{Technical Marketing Engineer} % Job title
+	{Developed marketing material and messaging for microcontrollers full go-to-market strategies for 3 products, and } % Description
 
 %------------------------------------------------
 
@@ -119,51 +101,51 @@ My research examined the use of ELW pulses from a mode-locked source array induc
 %	REFERENCES
 %----------------------------------------------------------------------------------------
 
-\section{References}
+% \section{References}
 
-%\textit{References available on request} % Uncomment if you'd rather not include references and remove the section below
+% %\textit{References available on request} % Uncomment if you'd rather not include references and remove the section below
 
-%------------------------------------------------
+% %------------------------------------------------
 
-% This section is laid out using a table. A \tableentry command adds lines with the following parameters:
+% % This section is laid out using a table. A \tableentry command adds lines with the following parameters:
 
-%\tableentry{Heading}{Content}{spaceafter}
-% All 3 parameters must be supplied but any can be empty if you don't need them
-% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
+% %\tableentry{Heading}{Content}{spaceafter}
+% % All 3 parameters must be supplied but any can be empty if you don't need them
+% % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
 
-%------------------------------------------------
+% %------------------------------------------------
 
-\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+% \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	\tableentry{}{\textbf{Dr. Isaac Kleiner}}{spaceafter}
-	\tableentry{Position}{Professor}{}
-	\tableentry{Employer}{\href{https://web.mit.edu/physics/}{Department of Physics}}{}
-	\tableentry{}{\href{https://web.mit.edu}{\textit{Massachusetts Institute of Technology}}}{spaceafter}
-	\tableentry{Phone}{+1 (617) 253 1000 x5322 (Work)}{}
-	\tableentry{Mobile}{+1 (232) 842-3583}{}
+% 	\tableentry{}{\textbf{Dr. Isaac Kleiner}}{spaceafter}
+% 	\tableentry{Position}{Professor}{}
+% 	\tableentry{Employer}{\href{https://web.mit.edu/physics/}{Department of Physics}}{}
+% 	\tableentry{}{\href{https://web.mit.edu}{\textit{Massachusetts Institute of Technology}}}{spaceafter}
+% 	\tableentry{Phone}{+1 (617) 253 1000 x5322 (Work)}{}
+% 	\tableentry{Mobile}{+1 (232) 842-3583}{}
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	\\ % Additional vertical whitespace between the references
+% 	\\ % Additional vertical whitespace between the references
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	\tableentry{}{\textbf{Dr. Eli Vance}}{spaceafter}
-	\tableentry{Position}{Scientist (HL1)}{}
-	\tableentry{Employer}{\href{http://www.bmrf.us}{Black Mesa Research Facility}}{spaceafter}
-	\tableentry{Email}{\href{mailto:e.vance@bmrf.us}{e.vance@bmrf.us}}{}
-	\tableentry{Phone}{+1 (800) 786-1410 x6235 (Work)}{}
-	\tableentry{Mobile}{+1 (201) 632-3901}{}
+% 	\tableentry{}{\textbf{Dr. Eli Vance}}{spaceafter}
+% 	\tableentry{Position}{Scientist (HL1)}{}
+% 	\tableentry{Employer}{\href{http://www.bmrf.us}{Black Mesa Research Facility}}{spaceafter}
+% 	\tableentry{Email}{\href{mailto:e.vance@bmrf.us}{e.vance@bmrf.us}}{}
+% 	\tableentry{Phone}{+1 (800) 786-1410 x6235 (Work)}{}
+% 	\tableentry{Mobile}{+1 (201) 632-3901}{}
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-\end{supertabular}
+% \end{supertabular}
 
-\medskip % Extra vertical whitespace before the next section
+% \medskip % Extra vertical whitespace before the next section
 
-%----------------------------------------------------------------------------------------
+% %----------------------------------------------------------------------------------------
 
 \switchcolumn % Switch to the second (right) column
 
@@ -171,13 +153,13 @@ My research examined the use of ELW pulses from a mode-locked source array induc
 %	COLORED CONTACT DETAILS BOX
 %----------------------------------------------------------------------------------------
 
-\parbox[top][0.11\textheight][c]{\linewidth}{ % Box to hold the colored box; change the fixed height as needed to match the box to the left
+\parbox[top][0.1\textheight][c]{\linewidth}{ % Box to hold the colored box; change the fixed height as needed to match the box to the left
 	\colorbox{shade}{ % Create colored box and specify background color
 		\begin{supertabular}{@{\hspace{3pt}} p{0.05\linewidth} | p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
-			\raisebox{-1pt}{\faHome} & P.O. Box 3985, Black Mesa Drive, NM 87545 \\ % Address
-			\raisebox{-1pt}{\faPhone} & +1 (800) 786-1410 \\ % Phone number
-			\raisebox{-1pt}{\small\faEnvelope} & \href{mailto:g.freeman@bmrf.us}{g.freeman@bmrf.us} \\ % Email address
-			\raisebox{-1pt}{\small\faDesktop} & \href{https://www.LaTeXTemplates.com}{https://www.LaTeXTemplates.com} \\ % Website
+			\raisebox{-1pt}{\faHome} & Chandler, AZ \\ % Address
+			\raisebox{-1pt}{\faPhone} & (717) 494-6466 \\ % Phone number
+			\raisebox{-1pt}{\small\faEnvelope} & \href{mailto:boothjmail@gmail.com}{boothjmail@gmail.com} \\ % Email address
+			\raisebox{-1pt}{\small\faLink} & \href{https://joshbooth.us}{joshbooth.us} \\ % Website
 			%\raisebox{-1pt}{\faGithub} & \href{https://github.com/username}{https://github.com/username} \\ % GitHub profile
 			%\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/username}{https://www.linkedin.com/in/username} \\ % LinkedIn profile
 			% See fontawesome.pdf in the Fonts folder for all icons you can use
@@ -185,6 +167,45 @@ My research examined the use of ELW pulses from a mode-locked source array induc
 	}
 	\vfill % Push content to the top of the box
 }
+
+
+%----------------------------------------------------------------------------------------
+%	ENGINEERING PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Notable Projects}
+
+\subsection{DMX Light Show}
+
+I believe in action over long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.
+
+
+
+% Entry 1
+
+\setlength\intextsep{20pt} % how far image is down from section title
+\begin{wrapfigure}{rt}{0.05\textwidth}
+	\hspace*{-20pt} % how close horizontal text can be
+    \includegraphics[scale=0.6]{security_system} %Z how large image is
+\end{wrapfigure}
+
+\vspace{-15pt} % move image's anchor box up closer to title
+\leavevmode\subsection{AI-Driven Security System}
+
+% \begin{figure}[h]
+% \includegraphics[scale=0.6]{security_system}
+% \end{figure}
+
+Manual manipulation of experimental equipment and training within Black Mesa (e.g. the Hazard Course) have contributed to an enjoyment of working with my hands.
+
+\subsection{3D PEEK Printer}
+
+I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.
+
+\subsection{The Cold Plate}
+
+The cold Plate
+
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -210,30 +231,24 @@ My research examined the use of ELW pulses from a mode-locked source array induc
 	%------------------------------------------------
 	
 	\qualificationentry
-		{1986 -- 1990} % Duration
-		{Doctor of Philosophy} % Degree
-		{} % Honors, achievements or distinctions (e.g. first class honors)
-		{Theoretical Physics} % Department
-		{Massachusetts Institute of Technology} % Institution
+		{2018-2022} % Duration
+		{Computer Engineering} % Degree
+		{Summa Cum Laude; 3.98 GPA} % Honors, achievements or distinctions (e.g. first class honors)
+		{Bachelors of Science} % Department
+		{Shippensburg University of Pennsylvania} % Institution
 	
 	%------------------------------------------------
 	
 	\qualificationentry
-		{1985} % Duration
-		{Master of Science} % Degree
-		{First Class Honors} % Honors, achievements or distinctions (e.g. first class honors)
-		{Theoretical Physics} % Department
-		{Massachusetts Institute of Technology} % Institution
+		{2018-2022} % Duration
+		{Mathematics} % Degree
+		{} % Honors, achievements or distinctions (e.g. first class honors)
+		{Minor} % Department
+		{Shippensburg University of Pennsylvania} % Institution
 	
 	%------------------------------------------------
 	
-	\qualificationentry
-		{1982 -- 1984} % Duration
-		{Bachelor of Physics} % Degree
-		{} % Honors, achievements or distinctions (e.g. first class honors)
-		{Department of Physics} % Department
-		{The University of Washington} % Institution
-	
+
 	%------------------------------------------------
 
 \end{supertabular}
@@ -271,100 +286,92 @@ My research examined the use of ELW pulses from a mode-locked source array induc
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
-
-\section{Computer Skills} 
-
-% This section is laid out using a table. A \tableentry command adds lines with the following parameters:
-
-%\tableentry{Heading}{Content}{spaceafter}
-% All 3 parameters must be supplied but any can be empty if you don't need them
-% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
-
-%------------------------------------------------
-
+\section{Testing}
 \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
 	
 	%------------------------------------------------
 	
-	\tableentry{Beginner}{Java, MS DOS}{spaceafter}
-	
-	%------------------------------------------------
-	
-	\tableentry{Intermediate}{Javascript, Python, HTML, CSS,}{}
-	\tableentry{}{Microsoft Windows}{}
-	\tableentry{}{Computer Hardware \& Support}{spaceafter}
-	
-	%------------------------------------------------
-	
-	\tableentry{Expert}{Perl, Unix, \LaTeX}{spaceafter}
-	
-	%------------------------------------------------
+	\tableentry{AI-driven Security System}{\textbf{Faculty of Science Masters Scholarship}}{}
+	\tableentry{Manual manipulation of experimental equipment and training within Black Mesa (e.g. the Hazard Course) have contributed to an enjoyment of working with my hands.
+}{}
 	
 \end{supertabular}
+% \section{Misc. Skills} 
+
+% % This section is laid out using a table. A \tableentry command adds lines with the following parameters:
+
+% %\tableentry{Heading}{Content}{spaceafter}
+% % All 3 parameters must be supplied but any can be empty if you don't need them
+% % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
+
+% %------------------------------------------------
+
+% \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+	
+% 	%------------------------------------------------
+	
+% 	\tableentry{Beginner}{Java, MS DOS}{spaceafter}
+	
+% 	%------------------------------------------------
+	
+% 	\tableentry{Intermediate}{Javascript, Python, HTML, CSS,}{}
+% 	\tableentry{}{Microsoft Windows}{}
+% 	\tableentry{}{Computer Hardware \& Support}{spaceafter}
+	
+% 	%------------------------------------------------
+	
+% 	\tableentry{Expert}{Perl, Unix, \LaTeX}{spaceafter}
+	
+% 	%------------------------------------------------
+	
+% \end{supertabular}
 
 %----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Communication Skills}
+% \section{Communication Skills}
 
-% This section is laid out using a table. A \tableentry command adds lines with the following parameters:
+% % This section is laid out using a table. A \tableentry command adds lines with the following parameters:
 
-%\tableentry{Heading}{Content}{spaceafter}
-% All 3 parameters must be supplied but any can be empty if you don't need them
-% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
+% %\tableentry{Heading}{Content}{spaceafter}
+% % All 3 parameters must be supplied but any can be empty if you don't need them
+% % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
 
-%------------------------------------------------
+% %------------------------------------------------
 
-\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+% \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	\tableentry{Conferences}{Oral Presentation at the Annual MIT}{}
-	\tableentry{}{Theoretical Physics Conference -- 1987}{spaceafter}
+% 	\tableentry{Conferences}{Oral Presentation at the Annual MIT}{}
+% 	\tableentry{}{Theoretical Physics Conference -- 1987}{spaceafter}
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	\tableentry{Posters}{Poster at the Meeting of the American}{}
-	\tableentry{}{Physical Society -- 1985}{spaceafter}
+% 	\tableentry{Posters}{Poster at the Meeting of the American}{}
+% 	\tableentry{}{Physical Society -- 1985}{spaceafter}
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-\end{supertabular}
+% \end{supertabular}
 
-%----------------------------------------------------------------------------------------
-%	SKILLS DESCRIPTION
-%----------------------------------------------------------------------------------------
-
-\section{Skills}
-
-\subsection{Goal Oriented}
-
-I believe in action over long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.
-
-\subsection{Physical Dexterity}
-
-Manual manipulation of experimental equipment and training within Black Mesa (e.g. the Hazard Course) have contributed to an enjoyment of working with my hands.
-
-\subsection{Passionate}
-
-I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
 
-\section{Publications}
+% \section{Publications}
 
-%------------------------------------------------
+% %------------------------------------------------
 
-\textbf{Freeman, G. R.} (1996). Chemistry of Multiply Charged Negative Molecular Ions and Clusters in the Gas Phase:  Terrestrial and in Intense Galactic Magnetic Fields. \textit{The Journal of Physical Chemistry}, \textit{100}(11), 4331-4338.
+% \textbf{Freeman, G. R.} (1996). Chemistry of Multiply Charged Negative Molecular Ions and Clusters in the Gas Phase:  Terrestrial and in Intense Galactic Magnetic Fields. \textit{The Journal of Physical Chemistry}, \textit{100}(11), 4331-4338.
 
-\medskip % Vertical whitespace
+% \medskip % Vertical whitespace
 
-Jacobsen, F. M., Gee, N., \textbf{Freeman, G. R.} (1986). Electron mobility in liquid krypton as function of density, temperature, and electric field strength. \textit{Physical Review A}, \textit{34}(3): 2329-2335.
+% Jacobsen, F. M., Gee, N., \textbf{Freeman, G. R.} (1986). Electron mobility in liquid krypton as function of density, temperature, and electric field strength. \textit{Physical Review A}, \textit{34}(3): 2329-2335.
 
-\medskip % Vertical whitespace
+% \medskip % Vertical whitespace
 
 %------------------------------------------------
 
@@ -380,30 +387,30 @@ Jacobsen, F. M., Gee, N., \textbf{Freeman, G. R.} (1986). Electron mobility in l
 
 %------------------------------------------------
 
-\subsection{Publications by DOI}
+% \subsection{Publications by DOI}
 
-\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+% \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	\doipublication{1996}{10.1021/jp951483+}{firstauthor}{spaceafter}
+% 	\doipublication{1996}{10.1021/jp951483+}{firstauthor}{spaceafter}
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	\doipublication{1990}{10.1139/p90-097}{firstauthor}{spaceafter}
+% 	\doipublication{1990}{10.1139/p90-097}{firstauthor}{spaceafter}
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	\doipublication{1986}{10.1139/v86-297}{}{}
-	\doipublication{}{10.1103/PhysRevA.34.2329}{}{spaceafter}
+% 	\doipublication{1986}{10.1139/v86-297}{}{}
+% 	\doipublication{}{10.1103/PhysRevA.34.2329}{}{spaceafter}
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-	& \textit{First author publications in} \textbf{bold}\\
+% 	& \textit{First author publications in} \textbf{bold}\\
 	
-	%------------------------------------------------
+% 	%------------------------------------------------
 	
-\end{supertabular}
+% \end{supertabular}
 
 \medskip % Extra whitespace before the next section
 

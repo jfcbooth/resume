@@ -1,13 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1690435961 "template.xdv" "template.pdf" "template" 1690435962 0
-  "template.xdv" 1690435960 52812 b750d7e4e8efdaf558884206d242b912 "xelatex"
+["xdvipdfmx"] 1690682584 "template.xdv" "template.pdf" "template" 1690682585 0
+  "template.xdv" 1690682584 28832 8f99ee92935948a77ddeecb18faf6621 "xelatex"
   (generated)
   "template.pdf"
   (rewritten before read)
-["xelatex"] 1690435959 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1690435962 0
+["xelatex"] 1690682583 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1690682585 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1690435449 79158 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1690435449 9168 9a5aa701d29eabf18a437176df27f8d8 ""
-  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1690435957 17569 88e2cb0172f8b1ab958ca5cf6b0cee21 ""
+  "FreemanCV.cls" 1690681679 9213 74db44482e9408410f60ad93184e4217 ""
+  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1690682582 17544 4067150ec6e6d399cf34ce6ac4d66859 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1690424081 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -40,10 +40,14 @@
   "c:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty" 1690426826 1656 7e824878bad4df5a3e8bba4e463d9126 ""
   "c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty" 1690427009 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1690427201 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1690427201 1224 978390e9c2234eab29404bc21b268d1e ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def" 1690427202 14788 1dde73f396dd97d88c838bee2a352abe ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty" 1690427198 7233 e46ce9241d2b2ca2a78155475fdd557a ""
+  "c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty" 1690427198 18387 8f900a490197ebaf93c02ae9476d4b09 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty" 1690427198 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1690427198 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1690427198 2885 9c645d672ae17285bba324998918efd8 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty" 1690427198 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty" 1690427540 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
   "c:/texlive/2023/texmf-dist/tex/latex/hyperref/hxetex.def" 1690427556 44513 e9749a69393d1108847da513624144f7 ""
   "c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty" 1690427556 220504 169e62639b625d84e162873f334fc3b1 ""
@@ -62,14 +66,16 @@
   "c:/texlive/2023/texmf-dist/tex/latex/supertabular/supertabular.sty" 1690431476 15405 31e477e611bb77761a134e5593e8119d ""
   "c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty" 1690432058 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
   "c:/texlive/2023/texmf-dist/tex/latex/url/url.sty" 1690432502 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1690432711 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "c:/texlive/2023/texmf-dist/tex/latex/xcolor/svgnam.def" 1690432744 4704 af34fa7e0b1716f97116d8a28100bb35 ""
   "c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty" 1690432744 56148 51a9a8571c07b9921892ae11063ae853 ""
   "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1690423670 40967 d940221f8762fd5848760382d97d1226 ""
   "c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1690433290 10795218 4cc31f14e8d2fe82dd382d0057691e6b ""
   "c:/texlive/2023/texmf.cnf" 1690433044 713 e69b156964470283e0530f5060668171 ""
-  "template.aux" 1690435960 1991 bd7a7403eb808acd9c80862ce350f482 "xelatex"
-  "template.out" 1690435960 1490 fc885d1e82a8747ad6f8030eb28006af "xelatex"
-  "template.tex" 1690435957 17569 88e2cb0172f8b1ab958ca5cf6b0cee21 ""
+  "images/security_system.jpg" 1690669877 29591 3baa89b3f9150c3dcfff36153f385301 ""
+  "template.aux" 1690682584 1554 05520fe0a60004f06da694ab32f81f26 "xelatex"
+  "template.out" 1690682584 1078 01f154384364d24848dd7e6de316f55a "xelatex"
+  "template.tex" 1690682582 17544 4067150ec6e6d399cf34ce6ac4d66859 ""
   (generated)
   "template.aux"
   "template.log"
