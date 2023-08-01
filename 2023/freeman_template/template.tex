@@ -1,6 +1,9 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
+
+% if you're here it means you were interested enough in me try and find our a little more. Why don't you skip the digging and go right to the source?
+
 
 \documentclass[
 	10pt, % Default font size, can be between 8pt and 12pt
@@ -140,7 +143,7 @@
 	%------------------------------------------------
 	
 	\qualificationentry
-		{2018-2022} % Duration
+		{2018-2022} % Duration 
 		{Computer Engineering} % Degree
 		{Summa Cum Laude; 3.98 GPA; Comp Org SI} % Honors, achievements or distinctions (e.g. first class honors)
 		{Bachelors of Science} % Department
@@ -162,56 +165,50 @@
 
 \end{supertabular}
 
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+%------------------------------------------------
+
+\begin{supertabular}{p{0.05\linewidth} p{0.95\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+	
+	%------------------------------------------------
+	2023 & \href{
+	https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ApplicationNotes/ApplicationNotes/AN4889-Using-CIPs-To-Implement-Peltier-Plate-DS00004889.pdf
+	}{
+	AN4889: Using Core Independent Peripherals (CIPs) to Implement a Peltier Cooled Metal Plate
+	\scriptsize\faLink} \\
+	%------------------------------------------------
+	2018 & \href{
+	http://joshbooth.us/wp-content/uploads/2023/08/Machine-Learning-in-Radio-Frequency-Communications.pdf
+	}{
+	Machine Learning in Radio Frequency Communications
+	\scriptsize\faLink} \\
+	%------------------------------------------------
+	2017 & \href{
+	http://joshbooth.us/wp-content/uploads/2023/08/poster_SBME_promoter_predictions.pdf
+	}{
+	Prediction of Bacterial Promoter Sequences using Machine Learning
+	\scriptsize\faLink} \\
+	%------------------------------------------------
+	
+\end{supertabular}
+
+\medskip % Extra whitespace before the next section
 
 %----------------------------------------------------------------------------------------
-%	REFERENCES
+%----------------------------------------------------------------------------------------
 %----------------------------------------------------------------------------------------
 
-% \section{References}
+% END OF COLUMN 1
 
-% %\textit{References available on request} % Uncomment if you'd rather not include references and remove the section below
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
 
-% %------------------------------------------------
-
-% % This section is laid out using a table. A \tableentry command adds lines with the following parameters:
-
-% %\tableentry{Heading}{Content}{spaceafter}
-% % All 3 parameters must be supplied but any can be empty if you don't need them
-% % A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings, leave it empty for no extra space
-
-% %------------------------------------------------
-
-% \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
-	
-% 	%------------------------------------------------
-	
-% 	\tableentry{}{\textbf{Dr. Isaac Kleiner}}{spaceafter}
-% 	\tableentry{Position}{Professor}{}
-% 	\tableentry{Employer}{\href{https://web.mit.edu/physics/}{Department of Physics}}{}
-% 	\tableentry{}{\href{https://web.mit.edu}{\textit{Massachusetts Institute of Technology}}}{spaceafter}
-% 	\tableentry{Phone}{+1 (617) 253 1000 x5322 (Work)}{}
-% 	\tableentry{Mobile}{+1 (232) 842-3583}{}
-	
-% 	%------------------------------------------------
-	
-% 	\\ % Additional vertical whitespace between the references
-	
-% 	%------------------------------------------------
-	
-% 	\tableentry{}{\textbf{Dr. Eli Vance}}{spaceafter}
-% 	\tableentry{Position}{Scientist (HL1)}{}
-% 	\tableentry{Employer}{\href{http://www.bmrf.us}{Black Mesa Research Facility}}{spaceafter}
-% 	\tableentry{Email}{\href{mailto:e.vance@bmrf.us}{e.vance@bmrf.us}}{}
-% 	\tableentry{Phone}{+1 (800) 786-1410 x6235 (Work)}{}
-% 	\tableentry{Mobile}{+1 (201) 632-3901}{}
-	
-% 	%------------------------------------------------
-	
-% \end{supertabular}
-
-% \medskip % Extra vertical whitespace before the next section
-
-% %----------------------------------------------------------------------------------------
 
 \switchcolumn % Switch to the second (right) column
 
@@ -241,57 +238,63 @@
 
 \section{Notable Projects}
 
+% Entry 0 - image on right
+
 \subsection{DMX Light Show}
 
-I believe in action long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.
+A real-time audio processing light show highlighting the flagship features on the PIC18Q71 microcontroller.
+Using a single OP-AMP, it extracts 7 bands of frequencies from an audio signal using a custom band pass filter design.
+It then sends lighting information over DMX to 1 of 7 nodes to create a light visualization.
+Each nodes updates it's WS2812 LEDs via their SPI drivers that have been logically equated to the 1-wire protocol using CIPs.
 
 
-
-% Entry 1
+% Entry 1 - image on left
+% AI Driven Security system
 
 \setlength\intextsep{20pt} % how far image is down from section title
-\begin{wrapfigure}[4]{rt}{35pt} % # of narrow lines, right top alignment, image L/R adjustment
-	\hspace*{-20pt} % how close horizontal text can be
-	\vspace*{-20pt}
-    \includegraphics[scale=0.6]{security_system} %Z how large image is
-\end{wrapfigure}
-
-\vspace*{-15pt} % move image's anchor box up closer to title
-\leavevmode\subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \scriptsize\faLink}}
-
-
-A wireless, solar-powered securty system that provides real-time alerts through AI-identifcation of humans, vehicles, and large animals.
-
-% Entry 2
-
-% %\setlength\intextsep{20pt} % how far image is down from section title
-% \begin{wrapfigure}{L}{0.05\textwidth}
-% 	%\hspace*{-20pt} % how close horizontal text can be
-% 	%\vspace*{-80pt}
-%     \includegraphics[scale=0.04]{printer} %Z how large image is
-% \end{wrapfigure}
-
-% \vspace*{-5pt} % move image's anchor box up closer to title
-% \leavevmode \subsection{3D PEEK Printer}
-
-\setlength\intextsep{17pt} % how far image is down from section title
-\begin{wrapfigure}[9]{l}{28pt}
+\begin{wrapfigure}[7]{l}{30pt} % # of narrow lines, right top alignment, image L/R adjustment
 	%\hspace*{-20pt} % how close horizontal text can be
-	%\vspace*{-80pt}
-    \includegraphics[scale=0.175]{printer2} %Z how large image is
+    \includegraphics[width=50pt]{security_system} %Z how large image is
 \end{wrapfigure}
 
+\leavevmode \subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \scriptsize\faLink}}
 %\vspace*{-5pt} % move image's anchor box up closer to title
-\leavevmode \subsection{3D PEEK Printer}
 
-% \noindent\raisebox{30pt}{\includegraphics[scale=0.04]{printer}}\hfill %Z how large image is
-% \subsection{3D PEEK Printer}
+Protoype engineer for solar-powered security system that gives real-time alerts with video anytime a classified human, vehicle, or large animal is spotted
+on the property. The client also wanted all footage to be stored locally for legal purposes, so a custom program extracted motion clips
+after the footage was saved, which could then be reliably transported back to a central node to do ML classification on.
 
-I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.
+% Entry 2 - image on right
+% 3D PEEK Printer
 
-\subsection{The Cold Plate}
+\setlength\intextsep{7pt} % image in relation to subsection title
+\begin{wrapfigure}[8]{rt}{25pt} % # of narrow lines, right top alignment, image L/R adjustment
+	\hspace*{-23pt} % how close horizontal text can be
+    \includegraphics[width=75pt]{printer} %Z how large image is
+\end{wrapfigure}
 
-The cold Plate
+\vspace*{-10pt} % move title's anchor box up closer to title
+\leavevmode\subsection{\href{https://github.com/jfcbooth/3dpp}{3D PEEK Printer \scriptsize\faLink}}
+
+Designed and build a large-scale 3D printer capable of printing engineering-grade plastics.
+This printer was specialized to print static mixers out of PEEK for biofuel refinement.
+Involved in the development was designing the kinematic system, thermal dynamics, and software to safely control it's operation
+while dealing with hazardous temperatures and voltages.
+
+% Entry 3 - image on the left
+% The Cold Plate
+
+\setlength\intextsep{20pt} % how far image is down from section title
+\begin{wrapfigure}[7]{l}{40pt} % # of narrow lines, right top alignment, image L/R adjustment
+	%\hspace*{-20pt} % how close horizontal text can be
+    \includegraphics[width=63pt]{cold_plate} %Z how large image is
+\end{wrapfigure}
+
+\leavevmode \subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{The Cold Plate \scriptsize\faLink}}
+%\vspace*{-5pt} % move image's anchor box up closer to title
+
+A reference design showing the most efficient way to perform the most common microcontroller tasks on a PIC16, all wrapped up into an engaging demo.
+It has become Microchip's most copied code repository.
 
 
 %----------------------------------------------------------------------------------------
@@ -387,64 +390,6 @@ The cold Plate
 % 	%------------------------------------------------
 	
 % \end{supertabular}
-
-
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-
-\section{Publications}
-
-%------------------------------------------------
-
-% \href{https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ApplicationNotes/ApplicationNotes/AN4889-Using-CIPs-To-Implement-Peltier-Plate-DS00004889.pdf}{Using Core Independent Peripherals (CIPs) to Implement a
-% 	Peltier Cooled Metal Plate}
-
-% \medskip % Vertical whitespace
-
-% Jacobsen, F. M., Gee, N., \textbf{Freeman, G. R.} (1986). Electron mobility in liquid krypton as function of density, temperature, and electric field strength. \textit{Physical Review A}, \textit{34}(3): 2329-2335.
-
-% \medskip % Vertical whitespace
-
-%------------------------------------------------
-
-% As an alternative to a long-form publication list, you can create a shorter summary using only DOI values and years.
-
-% Example \doipublication{} command to add another publication:
-
-%\doipublication{Year}{DOI}{firstauthor}{spaceafter}
-
-% All four parameters are required (can be empty though)
-% A value of "firstauthor" in the third parameter will output the DOI in bold
-% A "spaceafter" value in the fourth parameter will add some vertical space -- this is to be used between years
-
-%------------------------------------------------
-
-\begin{supertabular}{p{0.05\linewidth} p{0.95\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
-	
-	%------------------------------------------------
-	2023 & \href{
-	https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ApplicationNotes/ApplicationNotes/AN4889-Using-CIPs-To-Implement-Peltier-Plate-DS00004889.pdf
-	}{
-	Using Core Independent Peripherals (CIPs) to Implement a Peltier Cooled Metal Plate
-	\scriptsize\faLink} \\
-	%------------------------------------------------
-	2018 & \href{
-	http://joshbooth.us/wp-content/uploads/2023/08/Machine-Learning-in-Radio-Frequency-Communications.pdf
-	}{
-	Machine Learning in Radio Frequency Communications
-	\scriptsize\faLink} \\
-	%------------------------------------------------
-	2017 & \href{
-	http://joshbooth.us/wp-content/uploads/2023/08/poster_SBME_promoter_predictions.pdf
-	}{
-	Prediction of Bacterial Promoter Sequences using Machine Learning
-	\scriptsize\faLink} \\
-	%------------------------------------------------
-	
-\end{supertabular}
-
-\medskip % Extra whitespace before the next section
 
 %----------------------------------------------------------------------------------------
 

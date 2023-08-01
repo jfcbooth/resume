@@ -1,13 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1690855395 "template.xdv" "template.pdf" "template" 1690855396 0
-  "template.xdv" 1690855395 35640 26d113af804218e376f128217d8c6660 "xelatex"
+["xdvipdfmx"] 1690872412 "template.xdv" "template.pdf" "template" 1690872414 0
+  "template.xdv" 1690872412 44748 2b5f72254543b71bd58657cd7b7671ea "xelatex"
   (generated)
   "template.pdf"
   (rewritten before read)
-["xelatex"] 1690855394 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1690855396 0
+["xelatex"] 1690872410 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1690872414 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1690435449 79158 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1690768008 9643 8e142edb902e88b32ea6765a9d24ec53 ""
-  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1690855393 18868 aea6ef66b5e438c7807737053a723654 ""
+  "FreemanCV.cls" 1690859933 9638 fcfedec300e794efa32392d17a42d676 ""
+  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1690872409 17326 24060345ad9ef6cda52d65a5b389e911 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1690424081 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -72,11 +72,12 @@
   "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1690423670 40967 d940221f8762fd5848760382d97d1226 ""
   "c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1690433290 10795218 4cc31f14e8d2fe82dd382d0057691e6b ""
   "c:/texlive/2023/texmf.cnf" 1690433044 713 e69b156964470283e0530f5060668171 ""
-  "images/printer2.png" 1690855372 49955 ac47c7464af0a21f8873cb488ee847ba ""
+  "images/cold_plate.png" 1690870751 260149 313ad0f78db15a331ebe2d1db674de30 ""
+  "images/printer.png" 1690864739 49499 c0d11f40db51f7632e435ce4e8e04835 ""
   "images/security_system.jpg" 1690669877 29591 3baa89b3f9150c3dcfff36153f385301 ""
-  "template.aux" 1690855395 1655 f7dc796c0eea4212c4c7dd2645140d59 "xelatex"
-  "template.out" 1690855395 1119 b8c863065b2bb5ebb367e07359f85955 "xelatex"
-  "template.tex" 1690855393 18868 aea6ef66b5e438c7807737053a723654 ""
+  "template.aux" 1690872412 1871 d3cfeb81afaa750523db1a2f5ac06bcb "xelatex"
+  "template.out" 1690872412 1151 5e0198edc74bbb343a83ece9579016ee "xelatex"
+  "template.tex" 1690872409 17326 24060345ad9ef6cda52d65a5b389e911 ""
   (generated)
   "template.aux"
   "template.log"
