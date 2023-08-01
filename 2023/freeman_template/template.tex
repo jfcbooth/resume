@@ -11,7 +11,7 @@
 \graphicspath{{./images/}}
 
 
-\columnratio{0.50, 0.50} % Widths of the two columns, specified here as a ratio summing to 1 to correspond to percentages; adjust as needed for your content 
+\columnratio{0.40, 0.60} % Widths of the two columns, specified here as a ratio summing to 1 to correspond to percentages; adjust as needed for your content 
 
 % Headers and footers can be added with the following commands: \lhead{}, \rhead{}, \lfoot{} and \rfoot{}
 % Example right footer:
@@ -76,26 +76,92 @@
 	{Current, from Jun 2022} % Duration
 	{FT} % FT/PT (full time or part time)
 	{Microchip Technology} % Employer
-	{Technical Marketing Engineer} % Job title
-	{Developed marketing material and messaging for microcontrollers full go-to-market strategies for 3 products, and } % Description
+	{Applications/Marketing Engineer} % Job title
+	{ % Description
+		Bridged the gap between technical aspects of 8-bit microcontroller products and their marketing strategies.
+		This role involved both developing the initial mass market campaign for multiple products
+		and explaining technical concepts in an easily digestible way to the mass market and field sales reps. 
+		Internally, I also lead an analytics initiative that lead to better data-driven decisions about our marketing campaign strategies.
+	} 
 
 %------------------------------------------------
 
 \jobentry
-	{Feb 1991 -- Jan 1995} % Duration
-	{FT} % FT/PT (full time or part time)
-	{Black Mesa Research Facility} % Employer
-	{Level 3 Research Associate} % Job title
-	{This position involved transitioning from purely theoretical work to experimental applications utilising the immense resources of Black Mesa. The transition required an initial learning curve in hazard containment, health and safety procedures and operating experimental infrastructure. Manipulating valves, carts, buttons, levers, etc considerably increased my physical fitness.} % Description
+	{Jun 2017 - Jan 2022} % Duration
+	{FT/PT} % FT/PT (full time or part time)
+	{United States Naval Research Laboratory} % Employer
+	{Electrical Engineer Student Trainee} % Job title
+	{ % Description
+		Developed machine learning and a data analytic foundation through multiple projects involving
+		detecting and classifying objects in satellite imagery to improve field response time,
+		recovering noisy RF communications by augmenting a message passing algorithm with a Bidirectional RNN with GRU cells, 
+		and identify promoter sequences in DNA using Bidirection RNN with LSTM cells.
+	} 
 
 %------------------------------------------------
 
 \jobentry
-	{Jul 1982 -- Dec 1984} % Duration
-	{PT} % FT/PT (full time or part time)
-	{WashPests Limited} % Employer
-	{Pest Control Technician} % Job title
-	{In this summer job I was tasked with helping eradicate pests from industrial areas. Work involved setting traps, spraying and physical eradication. I received praise for reaching difficult areas and my innovative use of a crowbar to assist in my work.} % Description
+	{Sep 2016, Jun 2022} % Duration
+	{FT/PT} % FT/PT (full time or part time)
+	{Booth Oil and Gas LLC.} % Employer
+	{Prototype Engineer} % Job title
+	{ % Description
+		Developed specialized prototypes for novel problems the client faced in both day-to-day operations
+		as well as for expanding the business, such as building an human-sized PEEK 3D printer for biofuel refinement.
+		I offered technical expertise for project planning, cost estimation, feasibility studies.
+		In addition to other project management tasks, I communicated with the client to manage their expectations
+		and incorporate or remove features as their needs changed.
+	}
+
+
+
+	
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education} 
+
+% Each qualification entry is added with a \qualificationentry command. Below is an empty one to use as a template:
+
+%\qualificationentry
+%	{} % Duration
+%	{} % Degree
+%	{} % Honors, achievements or distinctions (e.g. first class honors)
+%	{} % Department
+%	{} % Institution
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+	
+	\qualificationentry
+		{2018-2022} % Duration
+		{Computer Engineering} % Degree
+		{Summa Cum Laude; 3.98 GPA; Comp Org SI} % Honors, achievements or distinctions (e.g. first class honors)
+		{Bachelors of Science} % Department
+		{Shippensburg University of Pennsylvania} % Institution
+	
+	%------------------------------------------------
+	
+	\qualificationentry
+		{2018-2022} % Duration
+		{Mathematics} % Degree
+		{} % Honors, achievements or distinctions (e.g. first class honors)
+		{Minor} % Department
+		{Shippensburg University of Pennsylvania} % Institution
+	
+	%------------------------------------------------
+	
+
+	%------------------------------------------------
+
+\end{supertabular}
+
 
 %----------------------------------------------------------------------------------------
 %	REFERENCES
@@ -156,10 +222,10 @@
 \parbox[top][0.1\textheight][c]{\linewidth}{ % Box to hold the colored box; change the fixed height as needed to match the box to the left
 	\colorbox{shade}{ % Create colored box and specify background color
 		\begin{supertabular}{@{\hspace{3pt}} p{0.05\linewidth} | p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
-			\raisebox{-1pt}{\faHome} & Chandler, AZ \\ % Address
 			\raisebox{-1pt}{\faPhone} & (717) 494-6466 \\ % Phone number
 			\raisebox{-1pt}{\small\faEnvelope} & \href{mailto:boothjmail@gmail.com}{boothjmail@gmail.com} \\ % Email address
 			\raisebox{-1pt}{\small\faLink} & \href{https://joshbooth.us}{joshbooth.us} \\ % Website
+			\raisebox{-1pt}{\faHome} & Chandler, AZ \\ % Address
 			%\raisebox{-1pt}{\faGithub} & \href{https://github.com/username}{https://github.com/username} \\ % GitHub profile
 			%\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/username}{https://www.linkedin.com/in/username} \\ % LinkedIn profile
 			% See fontawesome.pdf in the Fonts folder for all icons you can use
@@ -177,28 +243,49 @@
 
 \subsection{DMX Light Show}
 
-I believe in action over long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.
+I believe in action long-winded discussions. I listen to everyone's viewpoints and use my judgement to immediately act based on consensus to achieve goals quickly and efficiently.
 
 
 
 % Entry 1
 
 \setlength\intextsep{20pt} % how far image is down from section title
-\begin{wrapfigure}{rt}{0.05\textwidth}
+\begin{wrapfigure}[4]{rt}{35pt} % # of narrow lines, right top alignment, image L/R adjustment
 	\hspace*{-20pt} % how close horizontal text can be
+	\vspace*{-20pt}
     \includegraphics[scale=0.6]{security_system} %Z how large image is
 \end{wrapfigure}
 
-\vspace{-15pt} % move image's anchor box up closer to title
-\leavevmode\subsection{AI-Driven Security System}
+\vspace*{-15pt} % move image's anchor box up closer to title
+\leavevmode\subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \scriptsize\faLink}}
 
-% \begin{figure}[h]
-% \includegraphics[scale=0.6]{security_system}
-% \end{figure}
 
-Manual manipulation of experimental equipment and training within Black Mesa (e.g. the Hazard Course) have contributed to an enjoyment of working with my hands.
+A wireless, solar-powered securty system that provides real-time alerts through AI-identifcation of humans, vehicles, and large animals.
 
-\subsection{3D PEEK Printer}
+% Entry 2
+
+% %\setlength\intextsep{20pt} % how far image is down from section title
+% \begin{wrapfigure}{L}{0.05\textwidth}
+% 	%\hspace*{-20pt} % how close horizontal text can be
+% 	%\vspace*{-80pt}
+%     \includegraphics[scale=0.04]{printer} %Z how large image is
+% \end{wrapfigure}
+
+% \vspace*{-5pt} % move image's anchor box up closer to title
+% \leavevmode \subsection{3D PEEK Printer}
+
+\setlength\intextsep{17pt} % how far image is down from section title
+\begin{wrapfigure}[9]{l}{28pt}
+	%\hspace*{-20pt} % how close horizontal text can be
+	%\vspace*{-80pt}
+    \includegraphics[scale=0.175]{printer2} %Z how large image is
+\end{wrapfigure}
+
+%\vspace*{-5pt} % move image's anchor box up closer to title
+\leavevmode \subsection{3D PEEK Printer}
+
+% \noindent\raisebox{30pt}{\includegraphics[scale=0.04]{printer}}\hfill %Z how large image is
+% \subsection{3D PEEK Printer}
 
 I have been interested in theoretical physics such as quantum mechanics and relativity from an early age. My education and research have cemented this interest into a passion. I greatly enjoy carrying out fundamental physics research with potential practical applications.
 
@@ -206,52 +293,6 @@ I have been interested in theoretical physics such as quantum mechanics and rela
 
 The cold Plate
 
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-
-\section{Education} 
-
-% Each qualification entry is added with a \qualificationentry command. Below is an empty one to use as a template:
-
-%\qualificationentry
-%	{} % Duration
-%	{} % Degree
-%	{} % Honors, achievements or distinctions (e.g. first class honors)
-%	{} % Department
-%	{} % Institution
-
-% All 5 parameters must be supplied but any can be empty if you don't need them
-
-%------------------------------------------------
-
-\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
-
-	%------------------------------------------------
-	
-	\qualificationentry
-		{2018-2022} % Duration
-		{Computer Engineering} % Degree
-		{Summa Cum Laude; 3.98 GPA} % Honors, achievements or distinctions (e.g. first class honors)
-		{Bachelors of Science} % Department
-		{Shippensburg University of Pennsylvania} % Institution
-	
-	%------------------------------------------------
-	
-	\qualificationentry
-		{2018-2022} % Duration
-		{Mathematics} % Degree
-		{} % Honors, achievements or distinctions (e.g. first class honors)
-		{Minor} % Department
-		{Shippensburg University of Pennsylvania} % Institution
-	
-	%------------------------------------------------
-	
-
-	%------------------------------------------------
-
-\end{supertabular}
 
 %----------------------------------------------------------------------------------------
 %	AWARDS
@@ -286,16 +327,7 @@ The cold Plate
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
-\section{Testing}
-\begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
-	
-	%------------------------------------------------
-	
-	\tableentry{AI-driven Security System}{\textbf{Faculty of Science Masters Scholarship}}{}
-	\tableentry{Manual manipulation of experimental equipment and training within Black Mesa (e.g. the Hazard Course) have contributed to an enjoyment of working with my hands.
-}{}
-	
-\end{supertabular}
+
 % \section{Misc. Skills} 
 
 % % This section is laid out using a table. A \tableentry command adds lines with the following parameters:
@@ -361,11 +393,12 @@ The cold Plate
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
 
-% \section{Publications}
+\section{Publications}
 
-% %------------------------------------------------
+%------------------------------------------------
 
-% \textbf{Freeman, G. R.} (1996). Chemistry of Multiply Charged Negative Molecular Ions and Clusters in the Gas Phase:  Terrestrial and in Intense Galactic Magnetic Fields. \textit{The Journal of Physical Chemistry}, \textit{100}(11), 4331-4338.
+% \href{https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ApplicationNotes/ApplicationNotes/AN4889-Using-CIPs-To-Implement-Peltier-Plate-DS00004889.pdf}{Using Core Independent Peripherals (CIPs) to Implement a
+% 	Peltier Cooled Metal Plate}
 
 % \medskip % Vertical whitespace
 
@@ -387,30 +420,29 @@ The cold Plate
 
 %------------------------------------------------
 
-% \subsection{Publications by DOI}
-
-% \begin{supertabular}{r l} % Start a table with two columns, the table will ensure everything is aligned
+\begin{supertabular}{p{0.05\linewidth} p{0.95\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
 	
-% 	%------------------------------------------------
+	%------------------------------------------------
+	2023 & \href{
+	https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ApplicationNotes/ApplicationNotes/AN4889-Using-CIPs-To-Implement-Peltier-Plate-DS00004889.pdf
+	}{
+	Using Core Independent Peripherals (CIPs) to Implement a Peltier Cooled Metal Plate
+	\scriptsize\faLink} \\
+	%------------------------------------------------
+	2018 & \href{
+	http://joshbooth.us/wp-content/uploads/2023/08/Machine-Learning-in-Radio-Frequency-Communications.pdf
+	}{
+	Machine Learning in Radio Frequency Communications
+	\scriptsize\faLink} \\
+	%------------------------------------------------
+	2017 & \href{
+	http://joshbooth.us/wp-content/uploads/2023/08/poster_SBME_promoter_predictions.pdf
+	}{
+	Prediction of Bacterial Promoter Sequences using Machine Learning
+	\scriptsize\faLink} \\
+	%------------------------------------------------
 	
-% 	\doipublication{1996}{10.1021/jp951483+}{firstauthor}{spaceafter}
-	
-% 	%------------------------------------------------
-	
-% 	\doipublication{1990}{10.1139/p90-097}{firstauthor}{spaceafter}
-	
-% 	%------------------------------------------------
-	
-% 	\doipublication{1986}{10.1139/v86-297}{}{}
-% 	\doipublication{}{10.1103/PhysRevA.34.2329}{}{spaceafter}
-	
-% 	%------------------------------------------------
-	
-% 	& \textit{First author publications in} \textbf{bold}\\
-	
-% 	%------------------------------------------------
-	
-% \end{supertabular}
+\end{supertabular}
 
 \medskip % Extra whitespace before the next section
 

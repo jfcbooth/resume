@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  29 JUL 2023 19:03
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  31 JUL 2023 19:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,24 +512,93 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 40.
 
-Overfull \hbox (2.60977pt too wide) in paragraph at lines 80--81
-\TU/EBGaramond(0)/m/n/10 Developed marketing material and messaging for microcontrollers
+Overfull \hbox (0.47345pt too wide) in paragraph at lines 85--86
+\TU/EBGaramond(0)/m/n/10 microcontroller products and their marketing strate-
  []
 
 
-Overfull \hbox (0.59311pt too wide) in paragraph at lines 89--90
-\TU/EBGaramond(0)/m/n/10 This position involved transitioning from purely theoretical work
+Overfull \hbox (1.59016pt too wide) in paragraph at lines 85--86
+\TU/EBGaramond(0)/m/n/10 plaining technical concepts in an easily digestible way
+ []
+
+
+Overfull \hbox (1.38347pt too wide) in paragraph at lines 85--86
+\TU/EBGaramond(0)/m/n/10 data-driven decisions about our marketing campaign
+ []
+
+
+Overfull \hbox (3.97017pt too wide) in paragraph at lines 99--100
+\TU/EBGaramond(0)/m/n/10 Developed machine learning and a data analytic foun-
+ []
+
+
+Overfull \hbox (2.12949pt too wide) in paragraph at lines 99--100
+\TU/EBGaramond(0)/m/n/10 and identify promoter sequences in DNA using Bidi-
+ []
+
+
+Overfull \hbox (2.26347pt too wide) in paragraph at lines 114--115
+\TU/EBGaramond(0)/m/n/10 Developed specialized prototypes for novel problems
+ []
+
+
+Overfull \hbox (5.45549pt too wide) in paragraph at lines 114--115
+\TU/EBGaramond(0)/m/n/10 human-sized PEEK 3D printer for biofuel refinement.
+ []
+
+
+Overfull \hbox (1.18283pt too wide) in paragraph at lines 114--115
+\TU/EBGaramond(0)/m/n/10 I offered technical expertise for project planning, cost
+ []
+
+
+Overfull \hbox (0.19948pt too wide) in paragraph at lines 114--115
+\TU/EBGaramond(0)/m/n/10 project management tasks, I communicated with the
+ []
+
+
+Overfull \hbox (18.8868pt too wide) in paragraph at lines 138--164
+[] 
  []
 
 File: ./images/security_system.jpg Graphic file (type bmp)
 <./images/security_system.jpg>
 
-Overfull \hbox (9.20451pt too wide) in paragraph at lines 188--190
-[]|  [] 
+LaTeX Font Warning: Font shape `TU/FontAwesome(0)/m/it' undefined
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 260.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 260.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 260.
+
+File: ./images/printer2.png Graphic file (type bmp)
+<./images/printer2.png>
+
+Overfull \hbox (18.7757pt too wide) in paragraph at lines 281--282
+[][] 
  []
 
 
-Overfull \hbox (689.7331pt too wide) in paragraph at lines 290--300
+Overfull \hbox (2.63275pt too wide) in paragraph at lines 426--426
+[]\TU/EBGaramond(0)/m/n/10 2023| 
+ []
+
+
+Overfull \hbox (2.10275pt too wide) in paragraph at lines 432--432
+[]\TU/EBGaramond(0)/m/n/10 2018| 
+ []
+
+
+Overfull \hbox (2.18275pt too wide) in paragraph at lines 438--438
+[]\TU/EBGaramond(0)/m/n/10 2017| 
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 423--446
 [] 
  []
 
@@ -540,16 +609,20 @@ Overfull \hbox (689.7331pt too wide) in paragraph at lines 290--300
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 01F154384364D24848DD7E6DE316F55A;1078.
+(rerunfilecheck)             Checksum: B8C863065B2BB5EBB367E07359F85955;1119.
  ) 
 Here is how much of TeX's memory you used:
- 14636 strings out of 475889
- 277711 string characters out of 5782010
- 1934869 words of memory out of 5000000
- 35498 multiletter control sequences out of 15000+600000
- 558733 words of font info for 75 fonts, out of 8000000 for 9000
+ 14663 strings out of 475889
+ 278343 string characters out of 5782010
+ 1939869 words of memory out of 5000000
+ 35522 multiletter control sequences out of 15000+600000
+ 558749 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,13n,107p,569b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,13n,107p,569b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.xdv (1 page, 28832 bytes).
+Output written on template.xdv (1 page, 35640 bytes).

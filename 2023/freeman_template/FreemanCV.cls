@@ -199,3 +199,10 @@
 	\href{http://dx.doi.org/#2}{\expandafter\ifstrequal\expandafter{#3}{firstauthor}{\textbf{doi:#2}}{doi:#2}}% DOI string and if "firstauthor" is entered for the 3rd argument, this makes the DOI string bold indicating a first author publication
 	\expandafter\ifstrequal\expandafter{#4}{}{\\}{\\[5pt]} % Conditional insertion of whitespace if the 4th parameter has any content in it
 }
+
+% 4 args: year, link, 
+\newcommand{\publication}[4]{
+	#1 & % Year
+	\href{#2}{\expandafter\ifstrequal\expandafter{#3}{firstauthor}{\textbf{doi:#2}}{doi:#2}}% DOI string and if "firstauthor" is entered for the 3rd argument, this makes the DOI string bold indicating a first author publication
+	\expandafter\ifstrequal\expandafter{#4}{}{\\}{\\[5pt]} % Conditional insertion of whitespace if the 4th parameter has any content in it
+}

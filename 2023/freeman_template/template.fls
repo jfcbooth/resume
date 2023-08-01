@@ -151,6 +151,8 @@ INPUT ./template.out
 OUTPUT template.out
 INPUT ./images/security_system.jpg
 INPUT ./images/security_system.jpg
+INPUT ./images/printer2.png
+INPUT ./images/printer2.png
 OUTPUT template.xdv
 INPUT template.aux
 INPUT ./template.out
