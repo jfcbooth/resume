@@ -175,7 +175,7 @@
 \newcommand{\jobentry}[5]{
 	{\raggedleft\textsc{#1\expandafter\ifstrequal\expandafter{#2}{}{}{\hspace{6pt}\footnotesize{(#2)}}}\par} % Duration and conditional full time/part time text
 	\expandafter\ifstrequal\expandafter{#3}{}{}{{\raggedright\large #3}\\} % Employer
-	\expandafter\ifstrequal\expandafter{#4}{}{}{{\raggedright\large\textit{\textbf{#4}}}\\[4pt]} % Job title
+	\expandafter\ifstrequal\expandafter{#4}{}{}{{\raggedright\large{\textbf{#4}}}\\[4pt]} % Job title
 	\expandafter\ifstrequal\expandafter{#5}{}{}{#5} % Description
 	\medskip % Vertical whitespace
 }

@@ -149,6 +149,8 @@ INPUT template.out
 INPUT ./template.out
 INPUT ./template.out
 OUTPUT template.out
+INPUT ./images/printer.png
+INPUT ./images/printer.png
 INPUT ./images/security_system.jpg
 INPUT ./images/security_system.jpg
 INPUT ./images/printer.png

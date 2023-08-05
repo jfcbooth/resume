@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  31 JUL 2023 23:46
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  5 AUG 2023 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -557,83 +557,98 @@ Overfull \hbox (0.19948pt too wide) in paragraph at lines 117--118
  []
 
 
-Overfull \hbox (18.8868pt too wide) in paragraph at lines 141--167
-[] 
- []
-
-
-Overfull \hbox (7.49875pt too wide) in paragraph at lines 179--179
+Overfull \hbox (7.49875pt too wide) in paragraph at lines 171--171
 []\TU/EBGaramond(0)/m/n/10 2023| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 176--185
-[] 
+Underfull \hbox (badness 2529) in paragraph at lines 175--175
+[][][]\TU/EBGaramond(0)/m/n/10 App. Note 4889: Using Core Indepen-
  []
 
 
-Overfull \hbox (6.96875pt too wide) in paragraph at lines 185--185
+Overfull \hbox (7.49875pt too wide) in paragraph at lines 177--177
+[]\TU/EBGaramond(0)/m/n/10 2023| 
+ []
+
+
+Overfull \hbox (6.96875pt too wide) in paragraph at lines 189--189
 []\TU/EBGaramond(0)/m/n/10 2018| 
  []
 
 
-Overfull \hbox (7.04875pt too wide) in paragraph at lines 191--191
+Overfull \hbox (7.04875pt too wide) in paragraph at lines 195--195
 []\TU/EBGaramond(0)/m/n/10 2017| 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 185--199
+Overfull \hbox (10.3786pt too wide) in paragraph at lines 168--199
 [] 
  []
-
-File: ./images/security_system.jpg Graphic file (type bmp)
-<./images/security_system.jpg>
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 257--258
-[][] 
- []
-
-
-LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 260.
 
 File: ./images/printer.png Graphic file (type bmp)
 <./images/printer.png>
 
-Overfull \hbox (28.33334pt too wide) in paragraph at lines 272--274
+Overfull \hbox (28.33334pt too wide) in paragraph at lines 250--252
+[]|  [] 
+ []
+
+
+LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 255.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 255.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 255.
+
+File: ./images/security_system.jpg Graphic file (type bmp)
+<./images/security_system.jpg>
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 269--270
+[][] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 272.
+
+File: ./images/printer.png Graphic file (type bmp)
+<./images/printer.png>
+
+Overfull \hbox (28.33334pt too wide) in paragraph at lines 284--286
 []|  [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 277.
+(hyperref)                removing `\FA' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 277.
+(hyperref)                removing `\FA' on input line 289.
 
 File: ./images/cold_plate.png Graphic file (type bmp)
 <./images/cold_plate.png>
 
-Overfull \hbox (23.0pt too wide) in paragraph at lines 290--291
+Overfull \hbox (23.0pt too wide) in paragraph at lines 302--303
 [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 293.
+(hyperref)                removing `\FA' on input line 305.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 293.
+(hyperref)                removing `\FA' on input line 305.
 
 [1
 
@@ -647,15 +662,15 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 5E0198EDC74BBB343A83ECE9579016EE;1151.
+(rerunfilecheck)             Checksum: 6A4C9A47EB74FF01C904408015ED8423;1167.
  ) 
 Here is how much of TeX's memory you used:
- 14682 strings out of 475889
- 278769 string characters out of 5782010
- 1943869 words of memory out of 5000000
- 35541 multiletter control sequences out of 15000+600000
- 558749 words of font info for 77 fonts, out of 8000000 for 9000
+ 14680 strings out of 475889
+ 278662 string characters out of 5782010
+ 1946869 words of memory out of 5000000
+ 35540 multiletter control sequences out of 15000+600000
+ 558741 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,13n,107p,569b,708s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.xdv (2 pages, 44748 bytes).
+Output written on template.xdv (2 pages, 46284 bytes).
