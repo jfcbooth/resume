@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  5 AUG 2023 20:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  6 AUG 2023 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,26 +532,6 @@ Overfull \hbox (2.12949pt too wide) in paragraph at lines 102--103
  []
 
 
-Overfull \hbox (5.45549pt too wide) in paragraph at lines 117--118
-\TU/EBGaramond(0)/m/n/10 human-sized PEEK 3D printer for biofuel refinement.
- []
-
-
-Overfull \hbox (1.18283pt too wide) in paragraph at lines 117--118
-\TU/EBGaramond(0)/m/n/10 I offered technical expertise for project planning, cost
- []
-
-
-Overfull \hbox (7.56459pt too wide) in paragraph at lines 117--118
-\TU/EBGaramond(0)/m/n/10 estimation, and feasibility studies. In addition to other
- []
-
-
-Overfull \hbox (0.19948pt too wide) in paragraph at lines 117--118
-\TU/EBGaramond(0)/m/n/10 project management tasks, I communicated with the
- []
-
-
 Overfull \hbox (7.49875pt too wide) in paragraph at lines 168--168
 []\TU/EBGaramond(0)/m/n/10 2023| 
  []
@@ -668,4 +648,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  94i,13n,107p,569b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.xdv (1 page, 50124 bytes).
+Output written on template.xdv (1 page, 50012 bytes).
