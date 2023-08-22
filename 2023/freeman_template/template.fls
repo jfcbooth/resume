@@ -34,6 +34,8 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
 INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
 INPUT c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty

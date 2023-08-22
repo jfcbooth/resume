@@ -1,13 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1692337376 "template.xdv" "template.pdf" "template" 1692337377 0
-  "template.xdv" 1692337376 50656 2cba74986c91e7a5178457378b2f53ad "xelatex"
+["xdvipdfmx"] 1692685299 "template.xdv" "template.pdf" "template" 1692685300 0
+  "template.xdv" 1692685299 48820 01665096cd49852317b53745e7d56054 "xelatex"
   (generated)
   "template.pdf"
   (rewritten before read)
-["xelatex"] 1692337374 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1692337377 0
+["xelatex"] 1692685297 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1692685300 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1690435449 79158 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1691290496 9653 4f749b7984bf58b5250127669879dc03 ""
-  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1692337372 19518 118a437f87a9985bf8ccf11dbcee79d3 ""
+  "FreemanCV.cls" 1692685108 9677 1d4cc7acbba8bd994ec164603bc76c9c ""
+  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1692685297 19458 30b04ab78dbd5178e5ae441fb9391069 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1690424081 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -32,6 +32,7 @@
   "c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty" 1690428158 5119 50695b8f743569fbac71a83f7ef51fe2 ""
   "c:/texlive/2023/texmf-dist/tex/latex/base/size10.clo" 1690428158 8448 74078c4a887f2cdcd57c3ec111622740 ""
   "c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd" 1690428158 2430 a2e8a746c2c6ddf1df1fb6ad609d5f6a ""
+  "c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1690426289 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1690426413 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "c:/texlive/2023/texmf-dist/tex/latex/extsizes/extsizes.sty" 1690426518 3240 8f6d502ca1d06cc8136c36580bba7618 ""
   "c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1690426537 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
@@ -75,9 +76,9 @@
   "images/cold_plate.png" 1690870751 260149 313ad0f78db15a331ebe2d1db674de30 ""
   "images/printer.png" 1690864739 49499 c0d11f40db51f7632e435ce4e8e04835 ""
   "images/security_system.jpg" 1690669877 29591 3baa89b3f9150c3dcfff36153f385301 ""
-  "template.aux" 1692337376 2070 f81feeb50ba7003b02ba668f822cd60a "xelatex"
-  "template.out" 1692337376 1298 fc306dcea9f54dc9afb7b835e44d0558 "xelatex"
-  "template.tex" 1692337372 19518 118a437f87a9985bf8ccf11dbcee79d3 ""
+  "template.aux" 1692685299 2070 b876c09ddc2cb8d3751983b7453964a2 "xelatex"
+  "template.out" 1692685299 1298 fc306dcea9f54dc9afb7b835e44d0558 "xelatex"
+  "template.tex" 1692685297 19458 30b04ab78dbd5178e5ae441fb9391069 ""
   (generated)
   "template.aux"
   "template.log"
