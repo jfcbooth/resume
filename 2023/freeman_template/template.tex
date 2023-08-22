@@ -43,23 +43,9 @@
 }
 
 %----------------------------------------------------------------------------------------
-%	MAJOR RESEARCH PROJECT
-%----------------------------------------------------------------------------------------
-
-% \section{Doctral Resoearch}
-
-% {\raggedright\textbf{``Observation of Einstein-Podolsky-Rosen Entanglement on Supraquantum Structures by Induction Through Nonlinear Transuranic Crystal of Extremely Long Wavelength Pulse from Mode-Locked Source Array"}\par}
-
-% \medskip % Vertical whitespace
-
-% My research examined the use of ELW pulses from a mode-locked source array inducted through transuranic crystals to observe entanglement on supraquantum structures. Theoretical advancements included prediction of quantum resonance phenomena including the possibility of resonance cascades. I was motivated to conduct this doctoral research due to my passion for teleportation of matter and I believe I have laid the foundation for further experimental validation and development of practical outcomes.
-
-% \medskip % Extra vertical whitespace before the next section
-
-%----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
-
+\vspace*{-4pt}
 \section{Work Experience}
 
 % Each job is added with a \jobentry command. Below is an empty one to use as a template:
@@ -82,9 +68,9 @@
 	{Applications/Marketing Engineer} % Job title
 	{ % Description
 		Bridged the gap between technical aspects of 8-bit microcontroller products and their marketing strategies.
-		This role involved contributing to the mass market strategy for multiple products
-		and creating demos and reference designs to explain technical concepts in an easily digestible way for the mass market and field sales reps. 
-		Internally, I also lead an analytics initiative that lead to better data-driven decisions about our marketing campaign strategies.
+		This role involved educating the mass market and field reps of technical concepts by creating engaging demos and reference designs.
+		It also involved contributing to the mass market strategy planning and execution for multiple products.
+		Internally, I lead an analytics initiative that produced to better data-driven decisions about our marketing campaign strategies.
 	} 
 
 %------------------------------------------------
@@ -95,10 +81,10 @@
 	{United States Naval Research Laboratory} % Employer
 	{Electrical Engineer Student Trainee} % Job title
 	{ % Description
-		Developed a machine learning and data analytic foundation through projects such as
+		I developed a machine learning and data analytic foundation through projects such as
 		detecting and classifying objects in satellite imagery,
-		recovering RF communications lost to noise by augmenting a message passing algorithm with ML (ML network can put the lost message in context of the other messages)
-		and identify promoter sequences in DNA using Bidirection RNN with LSTM cells.
+		recovered previously impossible to recover RF communications lost to noise using ML (ML lets us put the lost message in context of the other messages)
+		and identify promoter sequences in DNA to speed-up genome identification.
 	} 
 
 %------------------------------------------------
@@ -109,7 +95,7 @@
 	{Booth Oil and Gas LLC.} % Employer
 	{Prototype Engineer} % Job title
 	{ % Description
-		Developed specialized prototypes for novel business problems the client faced in both day-to-day operations
+		I design and manufactured specialized prototypes for novel business problems the client faced in both day-to-day operations
 		as well as for future expansion (see 3D PEEK Printer, AI-Driven Security System).
 		I offered technical expertise for project planning, cost estimation, and feasibility studies.
 		In addition to other project management tasks, I communicated with the client to manage their expectations
@@ -243,7 +229,7 @@
 % Entry 0 - image on right
 % DMX Light Show
 \setlength\intextsep{7pt} % image in relation to subsection title
-\begin{wrapfigure}[8]{rt}{25pt} % # of narrow lines, right top alignment, image L/R adjustment
+\begin{wrapfigure}[10]{rt}{25pt} % # of narrow lines, right top alignment, image L/R adjustment
 	\hspace*{-23pt} % how close horizontal text can be
     \includegraphics[width=75pt]{printer} %Z how large image is
 \end{wrapfigure}
@@ -251,10 +237,9 @@
 \vspace*{-10pt} % move title's anchor box up closer to title
 \leavevmode\subsection{\href{https://github.com/jfcbooth/3dpp}{DMX Light Show \scriptsize\faLink}}
 
-A real-time audio processing light show highlighting the flagship features on the PIC18Q71 microcontroller.
-Using a single OP-AMP, it extracts 7 bands of frequencies from an audio signal using a custom band pass filter design.
-It then sends lighting information over DMX to 1 of 7 nodes to create a light visualization.
-Each nodes updates it's WS2812 LEDs via their SPI drivers that have been logically equated to the 1-wire protocol using CIPs.
+A real-time audio processing light show highlighting the flagship features of the PIC18Q71 microcontroller.
+The design extracts bands of audio frequencies (bass, mid, treble, etc.) and sends the lighting information over DMX to 1 of 7 nodes to create a audio-esponsive light show.
+Some of the project's technical hurdles involved the design for proper low-noise analog and power design on the same PCB, fault-tolerant DMX and SPI communications, and implementing PoE for the high power requirements.
 
 
 % Entry 1 - image on left
@@ -266,10 +251,11 @@ Each nodes updates it's WS2812 LEDs via their SPI drivers that have been logical
     \includegraphics[width=50pt]{security_system} %Z how large image is
 \end{wrapfigure}
 
+\vspace*{-10pt}
 \leavevmode \subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \scriptsize\faLink}}
 %\vspace*{-5pt} % move image's anchor box up closer to title
 
-Protoype engineer for a solar-powered security system that gives real-time alerts with video anytime a classified human, vehicle, or large animal is spotted
+Protoype engineer for a solar-powered security system that gives real-time alerts with a classified video anytime a human, vehicle, or large animal is spotted
 on the property. The client also wanted all footage to be stored locally for legal purposes, so a custom program extracted motion clips
 after the footage was saved, which could then be reliably transported back to a central node to do the ML classification on.
 
@@ -299,6 +285,7 @@ while dealing with hazardous temperatures and voltages.
     \includegraphics[width=63pt]{cold_plate} %Z how large image is
 \end{wrapfigure}
 
+\vspace*{-10pt}
 \leavevmode \subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{The Cold Plate \scriptsize\faLink}}
 %\vspace*{-5pt} % move image's anchor box up closer to title
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  6 AUG 2023 12:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  17 AUG 2023 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -512,118 +512,128 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 43.
 
-Overfull \hbox (0.47345pt too wide) in paragraph at lines 88--89
+Overfull \hbox (0.47345pt too wide) in paragraph at lines 74--75
 \TU/EBGaramond(0)/m/n/10 microcontroller products and their marketing strate-
  []
 
 
-Overfull \hbox (2.8846pt too wide) in paragraph at lines 88--89
-\TU/EBGaramond(0)/m/n/10 gies. This role involved contributing to the mass mar-
+Overfull \hbox (1.38347pt too wide) in paragraph at lines 74--75
+\TU/EBGaramond(0)/m/n/10 data-driven decisions about our marketing campaign
  []
 
 
-Overfull \hbox (3.97017pt too wide) in paragraph at lines 102--103
-\TU/EBGaramond(0)/m/n/10 Developed a machine learning and data analytic foun-
+Overfull \hbox (6.32286pt too wide) in paragraph at lines 88--89
+\TU/EBGaramond(0)/m/n/10 I developed a machine learning and data analytic foun-
  []
 
 
-Overfull \hbox (2.12949pt too wide) in paragraph at lines 102--103
-\TU/EBGaramond(0)/m/n/10 and identify promoter sequences in DNA using Bidi-
+Overfull \hbox (1.84616pt too wide) in paragraph at lines 103--104
+\TU/EBGaramond(0)/m/n/10 I design and manufactured specialized prototypes for
  []
 
 
-Overfull \hbox (7.49875pt too wide) in paragraph at lines 168--168
+Overfull \hbox (7.56459pt too wide) in paragraph at lines 103--104
+\TU/EBGaramond(0)/m/n/10 estimation, and feasibility studies. In addition to other
+ []
+
+
+Overfull \hbox (0.19948pt too wide) in paragraph at lines 103--104
+\TU/EBGaramond(0)/m/n/10 project management tasks, I communicated with the
+ []
+
+
+Overfull \hbox (7.49875pt too wide) in paragraph at lines 154--154
 []\TU/EBGaramond(0)/m/n/10 2023| 
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 172--172
+Underfull \hbox (badness 2529) in paragraph at lines 158--158
 [][][]\TU/EBGaramond(0)/m/n/10 App. Note 4889: Using Core Indepen-
  []
 
 
-Overfull \hbox (7.49875pt too wide) in paragraph at lines 174--174
+Overfull \hbox (7.49875pt too wide) in paragraph at lines 160--160
 []\TU/EBGaramond(0)/m/n/10 2023| 
  []
 
 
-Overfull \hbox (6.96875pt too wide) in paragraph at lines 186--186
+Overfull \hbox (6.96875pt too wide) in paragraph at lines 172--172
 []\TU/EBGaramond(0)/m/n/10 2018| 
  []
 
 
-Overfull \hbox (7.04875pt too wide) in paragraph at lines 192--192
+Overfull \hbox (7.04875pt too wide) in paragraph at lines 178--178
 []\TU/EBGaramond(0)/m/n/10 2017| 
  []
 
 
-Overfull \hbox (10.3786pt too wide) in paragraph at lines 165--200
+Overfull \hbox (10.3786pt too wide) in paragraph at lines 151--186
 [] 
  []
 
 File: ./images/printer.png Graphic file (type bmp)
 <./images/printer.png>
 
-Overfull \hbox (28.33334pt too wide) in paragraph at lines 247--249
+Overfull \hbox (28.33334pt too wide) in paragraph at lines 233--235
 []|  [] 
  []
 
 
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 252.
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 252.
+(hyperref)                removing `\FA' on input line 238.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 252.
+(hyperref)                removing `\FA' on input line 238.
 
 File: ./images/security_system.jpg Graphic file (type bmp)
 <./images/security_system.jpg>
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 266--267
+Overfull \hbox (20.0pt too wide) in paragraph at lines 251--252
 [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 269.
+(hyperref)                removing `\FA' on input line 255.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 269.
+(hyperref)                removing `\FA' on input line 255.
 
 File: ./images/printer.png Graphic file (type bmp)
 <./images/printer.png>
 
-Overfull \hbox (28.33334pt too wide) in paragraph at lines 281--283
+Overfull \hbox (28.33334pt too wide) in paragraph at lines 267--269
 []|  [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 286.
+(hyperref)                removing `\FA' on input line 272.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 286.
+(hyperref)                removing `\FA' on input line 272.
 
 File: ./images/cold_plate.png Graphic file (type bmp)
 <./images/cold_plate.png>
 
-Overfull \hbox (23.0pt too wide) in paragraph at lines 299--300
+Overfull \hbox (23.0pt too wide) in paragraph at lines 285--286
 [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 302.
+(hyperref)                removing `\FA' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 302.
+(hyperref)                removing `\FA' on input line 289.
 
 [1
 
@@ -646,6 +656,6 @@ Here is how much of TeX's memory you used:
  35542 multiletter control sequences out of 15000+600000
  558741 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,13n,107p,569b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,13n,107p,414b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.xdv (1 page, 50012 bytes).
+Output written on template.xdv (1 page, 50656 bytes).
