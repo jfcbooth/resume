@@ -14,7 +14,7 @@
 \graphicspath{{./images/}}
 
 
-\columnratio{0.40, 0.60} % Widths of the two columns, specified here as a ratio summing to 1 to correspond to percentages; adjust as needed for your content 
+\columnratio{0.60, 0.40} % Widths of the two columns, specified here as a ratio summing to 1 to correspond to percentages; adjust as needed for your content 
 
 % Headers and footers can be added with the following commands: \lhead{}, \rhead{}, \lfoot{} and \rfoot{}
 % Example right footer:
@@ -125,17 +125,19 @@
 
 \vspace*{-10pt}
 \section{Embedded Development Projects}
-\columnratio{0.24,0.3,0.24,0.24}
+\columnratio{0.243,0.27,0.243,0.243}
+\setlength{\columnsep}{5pt}
 
 \begin{paracol}{4} % Begin four-column mode
 
 % DMX Light Show
 \project
 	{DMX Light Show} % Name
-	{https://github.com/jfcbooth/3dpp} % Link
+	{https://github.com/jfcbooth/dmx} % Link
 	{printer} % File
 	{ % Description
-		A real-time audio processing light show highlighting the flagship features of the PIC18Q71 microcontroller.
+		
+		\raggedright A real-time audio processing light show integrating audio filtering, DMX, PoE, and a hardware-encoded WS2812 driver.
 	}
 
 \switchcolumn
@@ -254,14 +256,13 @@ It is Microchip's most copied code repository.
 %----------------------------------------------------------------------------------------
 
 
-
+\columnratio{0.5, 0.5}
+\begin{paracol}{2}
 
 %----------------------------------------------------------------------------------------
 % EDUCATION
 \section{Education} 
 %----------------------------------------------------------------------------------------
-
-
 
 % Each qualification entry is added with a \qualificationentry command. Below is an empty one to use as a template:
 %------------------------------------------------
@@ -281,6 +282,8 @@ It is Microchip's most copied code repository.
 
 \end{supertabular}
 % END EDUCATION
+
+\switchcolumn
 
 %----------------------------------------------------------------------------------------
 %	AWARDS
@@ -308,6 +311,7 @@ It is Microchip's most copied code repository.
 	
 \end{supertabular}
 
+\end{paracol}
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------

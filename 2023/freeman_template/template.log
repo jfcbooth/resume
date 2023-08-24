@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  23 AUG 2023 23:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  23 AUG 2023 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -520,48 +520,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 36.
 
+Overfull \hbox (0.94206pt too wide) in paragraph at lines 57--57
+[][][][][][][] 
+ []
+
 
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 139.
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 141.
 
 File: ./images/printer.png Graphic file (type bmp)
 <./images/printer.png>
-
-Overfull \hbox (1.4896pt too wide) in paragraph at lines 139--139
-\TU/EBGaramond(0)/m/n/10 A real-time audio processing
- []
-
-
-Overfull \hbox (18.5636pt too wide) in paragraph at lines 139--139
-\TU/EBGaramond(0)/m/n/10 flagship features of the PIC18Q71
- []
-
 File: ./images/security_system.jpg Graphic file (type bmp)
 <./images/security_system.jpg>
-
-Overfull \hbox (7.32195pt too wide) in paragraph at lines 151--151
-\TU/EBGaramond(0)/m/n/10 AI-driven solar-powered security sys-
- []
-
 File: ./images/printer.png Graphic file (type bmp)
 <./images/printer.png>
-
-Overfull \hbox (2.78627pt too wide) in paragraph at lines 163--163
-\TU/EBGaramond(0)/m/n/10 ble of printing PEEK for bio-
- []
-
 File: ./images/cold_plate.png Graphic file (type bmp)
 <./images/cold_plate.png>
-
-Overfull \hbox (16.9785pt too wide) in paragraph at lines 175--175
-\TU/EBGaramond(0)/m/n/10 crocontroller tasks on a PIC16;
- []
-
-
-Overfull \hbox (11.0185pt too wide) in paragraph at lines 175--175
-\TU/EBGaramond(0)/m/n/10 It is Microchip’s most copied
- []
-
 [1
 
 ] (./template.aux)
@@ -574,7 +548,7 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 1647B99FBE94F24D39089C6104C9E23C;579.
+(rerunfilecheck)             Checksum: 3347E034A7A60CDDE5C519C557E6EA38;579.
  ) 
 Here is how much of TeX's memory you used:
  15063 strings out of 475889
@@ -583,6 +557,6 @@ Here is how much of TeX's memory you used:
  35919 multiletter control sequences out of 15000+600000
  558741 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,13n,107p,414b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,13n,107p,414b,513s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.xdv (1 page, 32764 bytes).
+Output written on template.xdv (1 page, 32768 bytes).
