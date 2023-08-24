@@ -125,56 +125,79 @@
 
 \vspace*{-10pt}
 \section{Embedded Development Projects}
-\columnratio{0.243,0.27,0.243,0.243}
-\setlength{\columnsep}{5pt}
+\columnratio{0.5, 0.5}
+\setlength{\columnsep}{10pt}
 
-\begin{paracol}{4} % Begin four-column mode
+\begin{paracol}{2} % Begin four-column mode
 
 % DMX Light Show
-\project
-	{DMX Light Show} % Name
-	{https://github.com/jfcbooth/dmx} % Link
-	{printer} % File
-	{ % Description
-		
-		\raggedright A real-time audio processing light show integrating audio filtering, DMX, PoE, and a hardware-encoded WS2812 driver.
-	}
+\vspace*{-10pt} % title's anchor box
+\leavevmode\subsection{\href{https://github.com/jfcbooth/3dpp}{DMX Light Show \scriptsize\faLink}
+\hfill
+\textsc{\footnotesize{(Embedded C, analog \& power design)}}}
 
-\switchcolumn
+\setlength\intextsep{-5pt} % image in vertical relation to subsection title
+\begin{wrapfigure}[8]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+	\hspace*{-5pt} % how close horizontal text can be
+    \includegraphics[width=60pt]{printer} %Z how large image is
+\end{wrapfigure}
+
+A real-time audio processing light show integrating audio filtering, DMX, DMA, PoE, and a hardware-encoded WS2812 driver.\\ 
+
+Written C drivers for this project include UART, DMA, DMX, PWM, SPI, CLC, OP-AMP, and ADC configurations.
+
 
 % AI Driven Security system
-\project
-	{AI-Driven Security System} % Name
-	{https://github.com/jfcbooth/security_system} % Link
-	{security_system} % File
-	{ % Description
-	AI-driven solar-powered security system that gives real-time alerts with a classified video anytime a human, vehicle, or large animal is spotted
-	on the property.
-	}
+\vspace*{0pt}
+\leavevmode \subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \scriptsize\faLink}
+\hfill
+\textsc{\footnotesize{(Python, Bash, Machine Learning)}}}
 
+\setlength\intextsep{0pt} % image in relation to subsection title
+\begin{wrapfigure}[8]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+	\hspace*{-5pt} % how close horizontal text can be
+    \includegraphics[width=60pt]{security_system} %Z how large image is
+\end{wrapfigure}
+
+AI-driven solar-powered security system that gives real-time alerts with a classified video anytime a human, vehicle, or large animal is spotted
+on the property.\\
+
+Custom python and bash programs handled data extraction and movement into and out of the neural network.
 
 \switchcolumn
 
 % 3D PEEK Printer
-\project
-	{3D PEEK Printer} % Name
-	{https://github.com/jfcbooth/3dpp} % Link
-	{printer} % File
-	{ % Description
-	Large-scale 3D printer capable of printing PEEK for biofuel refinement.
-	}
+\vspace*{-10pt}
+\leavevmode \subsection{\href{https://github.com/jfcbooth/3dpp}{3D PEEK Printer \scriptsize\faLink}
+\hfill
+\textsc{\footnotesize{(Embedded C, analog \& power design)}}}
 
-\switchcolumn
+\setlength\intextsep{-5pt} % image in relation to subsection title
+\begin{wrapfigure}[8]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+	\hspace*{-5pt} % how close horizontal text can be
+    \includegraphics[width=60pt]{printer} %Z how large image is
+\end{wrapfigure}
+
+Designed and built a large-scale 3D printer capable of printing PEEK for biofuel refinement.\\
+
+Involved in the development was designing the kinematic system, thermal dynamics, and software to safely control it's operation
+while dealing with hazardous temperatures and voltages.
 
 % The Cold Plate
-\project
-	{The Cold Plate} % Name
-	{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc} % Link
-	{cold_plate} % File
-	{ % Description
-	A reference design showing the most efficient way to perform common microcontroller tasks on a PIC16;
-It is Microchip's most copied code repository.
-	}
+\vspace*{-10pt}
+\leavevmode \subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{The Cold Plate \scriptsize\faLink}
+\hfill
+\textsc{\footnotesize{(Embedded C, analog \& power design)}}}
+
+\setlength\intextsep{0pt} % image in vertical relation to subsection title
+\begin{wrapfigure}[7]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+	\hspace*{-5pt} % how close horizontal text can be
+    \includegraphics[width=70pt]{cold_plate} %Z how large image is
+\end{wrapfigure}
+
+
+A reference design showing the most efficient way to perform common microcontroller tasks on a PIC16;
+It is Microchip's most copied code repository.% The Cold Plate
 
 \end{paracol}
 
@@ -289,7 +312,7 @@ It is Microchip's most copied code repository.
 %	AWARDS
 %----------------------------------------------------------------------------------------
 
-\section{Awards}
+\section{Certifications/Awards}
 
 % This section is laid out using a table. A \tableentry command adds lines with the following parameters:
 

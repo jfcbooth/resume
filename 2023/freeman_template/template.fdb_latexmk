@@ -1,13 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1692858519 "template.xdv" "template.pdf" "template" 1692858521 0
-  "template.xdv" 1692858519 32768 96448aaefb441101c72b5b06431a9e34 "xelatex"
+["xdvipdfmx"] 1692863974 "template.xdv" "template.pdf" "template" 1692863975 0
+  "template.xdv" 1692863974 40120 b08295c82935b869c691cf525a149892 "xelatex"
   (generated)
   "template.pdf"
   (rewritten before read)
-["xelatex"] 1692858518 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1692858521 0
+["xelatex"] 1692863972 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1692863975 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1690435449 79158 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1692856943 9830 3e9db5c406eff84d61c5f6bb8e41cc3e ""
-  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1692858517 15322 8f74f3a3cab32348544328a71afb3537 ""
+  "FreemanCV.cls" 1692862599 9829 af1a5583350ca6042d191408679795bf ""
+  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1692863970 17203 36f34feb37604e5e7051ad3075d8661f ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1690424081 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -74,11 +74,11 @@
   "c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1690433290 10795218 4cc31f14e8d2fe82dd382d0057691e6b ""
   "c:/texlive/2023/texmf.cnf" 1690433044 713 e69b156964470283e0530f5060668171 ""
   "images/cold_plate.png" 1690870751 260149 313ad0f78db15a331ebe2d1db674de30 ""
-  "images/printer.png" 1690864739 49499 c0d11f40db51f7632e435ce4e8e04835 ""
+  "images/printer.png" 1692861872 48821 603bfad0fb72fef713c62b11d063cb74 ""
   "images/security_system.jpg" 1690669877 29591 3baa89b3f9150c3dcfff36153f385301 ""
-  "template.aux" 1692858519 1076 4648d7cf37549b47c0a891447066cf79 "xelatex"
-  "template.out" 1692858519 579 3347e034a7a60cdde5c519c557e6ea38 "xelatex"
-  "template.tex" 1692858517 15322 8f74f3a3cab32348544328a71afb3537 ""
+  "template.aux" 1692863974 2268 8f29c4a30b93cc03ea64af2015f127ee "xelatex"
+  "template.out" 1692863974 2114 73bac2d9f91c1a64cf40db69e5603a4f "xelatex"
+  "template.tex" 1692863970 17203 36f34feb37604e5e7051ad3075d8661f ""
   (generated)
   "template.aux"
   "template.log"
