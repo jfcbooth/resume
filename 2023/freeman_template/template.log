@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  21 AUG 2023 23:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  23 AUG 2023 23:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,141 +516,55 @@ Package hyperref Info: Link coloring ON on input line 25.
 \openout3 = `template.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
-
-Overfull \hbox (7.56346pt too wide) in paragraph at lines 78--78
-[]\TU/EBGaramond(0)/m/n/10 Developed microcontroller libraries for abstracted use. 
- []
+(Font)              <5> on input line 36.
 
 
-Overfull \hbox (1.38347pt too wide) in paragraph at lines 78--78
-\TU/EBGaramond(0)/m/n/10 data-driven decisions about our marketing campaign
- []
-
-
-Overfull \hbox (6.00615pt too wide) in paragraph at lines 95--95
-[]\TU/EBGaramond(0)/m/n/10 Recovering RF communications lost to noise (BRNN
- []
-
-
-Overfull \hbox (8.01617pt too wide) in paragraph at lines 95--95
-\TU/EBGaramond(0)/m/n/10 up genome sequence identification (BRNN w/ LSTM
- []
-
-
-Overfull \hbox (9.17682pt too wide) in paragraph at lines 111--111
-[]\TU/EBGaramond(0)/m/n/10 Designed and manufactured prototypes for novel busi-
- []
-
-
-Overfull \hbox (3.58015pt too wide) in paragraph at lines 111--111
-\TU/EBGaramond(0)/m/n/10 pectations and incorporate or remove features as their
- []
-
-
-Overfull \hbox (7.49875pt too wide) in paragraph at lines 162--162
-[]\TU/EBGaramond(0)/m/n/10 2023| 
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 166--166
-[][][]\TU/EBGaramond(0)/m/n/10 App. Note 4889: Using Core Indepen-
- []
-
-
-Overfull \hbox (7.49875pt too wide) in paragraph at lines 168--168
-[]\TU/EBGaramond(0)/m/n/10 2023| 
- []
-
-
-Overfull \hbox (10.3786pt too wide) in paragraph at lines 159--172
-[] 
- []
-
-
-Overfull \hbox (6.96875pt too wide) in paragraph at lines 180--180
-[]\TU/EBGaramond(0)/m/n/10 2018| 
- []
-
-
-Overfull \hbox (7.04875pt too wide) in paragraph at lines 186--186
-[]\TU/EBGaramond(0)/m/n/10 2017| 
- []
-
-
-Overfull \hbox (10.3786pt too wide) in paragraph at lines 172--194
-[] 
- []
+LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 139.
 
 File: ./images/printer.png Graphic file (type bmp)
 <./images/printer.png>
 
-Overfull \hbox (28.33334pt too wide) in paragraph at lines 241--243
-[]|  [] 
+Overfull \hbox (1.4896pt too wide) in paragraph at lines 139--139
+\TU/EBGaramond(0)/m/n/10 A real-time audio processing
  []
 
 
-LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 246.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 246.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 246.
+Overfull \hbox (18.5636pt too wide) in paragraph at lines 139--139
+\TU/EBGaramond(0)/m/n/10 flagship features of the PIC18Q71
+ []
 
 File: ./images/security_system.jpg Graphic file (type bmp)
 <./images/security_system.jpg>
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 259--260
-[][] 
+Overfull \hbox (7.32195pt too wide) in paragraph at lines 151--151
+\TU/EBGaramond(0)/m/n/10 AI-driven solar-powered security sys-
  []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 263.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 263.
 
 File: ./images/printer.png Graphic file (type bmp)
 <./images/printer.png>
 
-Overfull \hbox (28.33334pt too wide) in paragraph at lines 275--277
-[]|  [] 
+Overfull \hbox (2.78627pt too wide) in paragraph at lines 163--163
+\TU/EBGaramond(0)/m/n/10 ble of printing PEEK for bio-
  []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 280.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 280.
 
 File: ./images/cold_plate.png Graphic file (type bmp)
 <./images/cold_plate.png>
 
-Overfull \hbox (23.0pt too wide) in paragraph at lines 293--294
-[][] 
+Overfull \hbox (16.9785pt too wide) in paragraph at lines 175--175
+\TU/EBGaramond(0)/m/n/10 crocontroller tasks on a PIC16;
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 297.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 297.
+Overfull \hbox (11.0185pt too wide) in paragraph at lines 175--175
+\TU/EBGaramond(0)/m/n/10 It is Microchip’s most copied
+ []
 
 [1
 
-] [2] (./template.aux)
+] (./template.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -660,15 +574,15 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: FC306DCEA9F54DC9AFB7B835E44D0558;1298.
+(rerunfilecheck)             Checksum: 1647B99FBE94F24D39089C6104C9E23C;579.
  ) 
 Here is how much of TeX's memory you used:
- 15009 strings out of 475889
- 284362 string characters out of 5782010
- 1947869 words of memory out of 5000000
- 35865 multiletter control sequences out of 15000+600000
+ 15063 strings out of 475889
+ 285410 string characters out of 5782010
+ 1939869 words of memory out of 5000000
+ 35919 multiletter control sequences out of 15000+600000
  558741 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,13n,107p,414b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,13n,107p,414b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.xdv (2 pages, 48820 bytes).
+Output written on template.xdv (1 page, 32764 bytes).

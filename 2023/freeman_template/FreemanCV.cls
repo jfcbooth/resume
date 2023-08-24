@@ -175,10 +175,17 @@
 
 % Command for adding a new job entry (work experience)
 \newcommand{\jobentry}[5]{
-	{\raggedleft\textsc{#1\expandafter\ifstrequal\expandafter{#2}{}{}{\hspace{6pt}\footnotesize{(#2)}}}\par} % Duration and conditional full time/part time text
-	\expandafter\ifstrequal\expandafter{#3}{}{}{{\raggedright\large #3}\\} % Employer
-	\expandafter\ifstrequal\expandafter{#4}{}{}{{\raggedright\large{\textbf{#4}}}\\[4pt]} % Job title
-	\expandafter\ifstrequal\expandafter{#5}{}{}{#5} % Description
+	{{\raggedright\large{\textbf{#4}}}} % Job title
+	{} | {} % adds spacing
+	{{\raggedright\large #3}} % Employer
+	\hfill
+	\vspace{-5pt}
+	{\raggedleft\textsc{#1{\hspace{6pt}\footnotesize{(#2)}}}} % Duration and conditional full time/part time text
+	{\begin{itemize}[leftmargin=10pt]
+		\itemsep-5pt
+		#5
+	\end{itemize}
+	} % Description
 	\medskip % Vertical whitespace
 }
 
@@ -207,4 +214,15 @@
 	#1 & % Year
 	\href{#2}{\expandafter\ifstrequal\expandafter{#3}{firstauthor}{\textbf{doi:#2}}{doi:#2}}% DOI string and if "firstauthor" is entered for the 3rd argument, this makes the DOI string bold indicating a first author publication
 	\expandafter\ifstrequal\expandafter{#4}{}{\\}{\\[5pt]} % Conditional insertion of whitespace if the 4th parameter has any content in it
+}
+
+% 4 args: name, link, picture file, description
+\newcommand{\project}[4]{
+	\begin{center}
+\textbf{\href{#2}{#1 \scriptsize\faLink}}
+\includegraphics[height=80pt]{#3}\\ %Z how large image is
+\end{center}
+\vspace{-10pt}
+#4
+
 }
