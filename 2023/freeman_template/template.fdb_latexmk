@@ -1,13 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1692863974 "template.xdv" "template.pdf" "template" 1692863975 0
-  "template.xdv" 1692863974 40120 b08295c82935b869c691cf525a149892 "xelatex"
+["xdvipdfmx"] 1692925339 "template.xdv" "template.pdf" "template" 1692925340 0
+  "template.xdv" 1692925339 42416 db7421aff6b630934aeee6d30d5f3586 "xelatex"
   (generated)
   "template.pdf"
   (rewritten before read)
-["xelatex"] 1692863972 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1692863975 0
+["xelatex"] 1692925337 "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" "template.xdv" "template" 1692925340 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1690435449 79158 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1692862599 9829 af1a5583350ca6042d191408679795bf ""
-  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1692863970 17203 36f34feb37604e5e7051ad3075d8661f ""
+  "FreemanCV.cls" 1692925335 9916 62ed470e5156e13a26f392bb70fac46c ""
+  "c:/Users/user/Desktop/resume/2023/freeman_template/template.tex" 1692925309 17454 1ba9ffa9f97096137da466aa15659594 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1690424081 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -43,7 +43,6 @@
   "c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1690427201 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1690427201 1224 978390e9c2234eab29404bc21b268d1e ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def" 1690427202 14788 1dde73f396dd97d88c838bee2a352abe ""
-  "c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty" 1690427198 7233 e46ce9241d2b2ca2a78155475fdd557a ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty" 1690427198 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty" 1690427198 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1690427198 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
@@ -66,6 +65,7 @@
   "c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1690430782 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "c:/texlive/2023/texmf-dist/tex/latex/supertabular/supertabular.sty" 1690431476 15405 31e477e611bb77761a134e5593e8119d ""
   "c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty" 1690432058 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
+  "c:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty" 1690432136 4545 9f5ea23ab1c91476c42749893f790666 ""
   "c:/texlive/2023/texmf-dist/tex/latex/url/url.sty" 1690432502 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1690432711 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "c:/texlive/2023/texmf-dist/tex/latex/xcolor/svgnam.def" 1690432744 4704 af34fa7e0b1716f97116d8a28100bb35 ""
@@ -74,11 +74,12 @@
   "c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1690433290 10795218 4cc31f14e8d2fe82dd382d0057691e6b ""
   "c:/texlive/2023/texmf.cnf" 1690433044 713 e69b156964470283e0530f5060668171 ""
   "images/cold_plate.png" 1690870751 260149 313ad0f78db15a331ebe2d1db674de30 ""
+  "images/dmx.jpg" 1692924194 2144714 cd690bcf40fd2983734c3056815ad97f ""
   "images/printer.png" 1692861872 48821 603bfad0fb72fef713c62b11d063cb74 ""
   "images/security_system.jpg" 1690669877 29591 3baa89b3f9150c3dcfff36153f385301 ""
-  "template.aux" 1692863974 2268 8f29c4a30b93cc03ea64af2015f127ee "xelatex"
-  "template.out" 1692863974 2114 73bac2d9f91c1a64cf40db69e5603a4f "xelatex"
-  "template.tex" 1692863970 17203 36f34feb37604e5e7051ad3075d8661f ""
+  "template.aux" 1692925339 2233 4f1cf97dc784ed6ecbe330fd8203910e "xelatex"
+  "template.out" 1692925339 2201 dc06cd5969a3122a989aa02c6c38abf8 "xelatex"
+  "template.tex" 1692925309 17454 1ba9ffa9f97096137da466aa15659594 ""
   (generated)
   "template.aux"
   "template.log"

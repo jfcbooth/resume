@@ -136,6 +136,8 @@ INPUT c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
+INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 INPUT ./template.aux
 INPUT ./template.aux
 INPUT template.aux
@@ -143,7 +145,6 @@ OUTPUT template.aux
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
-INPUT c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 INPUT ./template.out
 INPUT ./template.out
 INPUT template.out
@@ -151,8 +152,8 @@ INPUT template.out
 INPUT ./template.out
 INPUT ./template.out
 OUTPUT template.out
-INPUT ./images/printer.png
-INPUT ./images/printer.png
+INPUT ./images/dmx.jpg
+INPUT ./images/dmx.jpg
 INPUT ./images/security_system.jpg
 INPUT ./images/security_system.jpg
 INPUT ./images/printer.png

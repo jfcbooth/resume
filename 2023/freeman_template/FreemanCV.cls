@@ -52,7 +52,7 @@
 \usepackage[
 	a4paper, % Paper size
 	top=1.25cm, % Top margin org 1.75cm
-	bottom=1.25cm, % Bottom margin org 1.75cm
+	bottom=.1cm, % Bottom margin org 1.75cm
 	left=1.5cm, % Left margin
 	right=1.5cm, % Right margin
 	footskip=1cm, % Space from the bottom margin to the baseline of the footer
@@ -153,7 +153,7 @@
 \definecolor{text}{HTML}{2b2b2b} % Main document text color, off-black
 \definecolor{headings}{HTML}{701112} % Dark red color for headings
 \definecolor{shade}{HTML}{F5DD9D} % Peach color for the contact information box
-\definecolor{linkcolor}{HTML}{641c1d} % 25% desaturated headings color for links
+\definecolor{linkcolor}{HTML}{0000EE} % 25% desaturated headings color for links
 
 \color{text} % Set the default text color
 
@@ -161,10 +161,10 @@
 %	LINKS
 %----------------------------------------------------------------------------------------
 
-\usepackage{hyperref} % Required for links
+\usepackage[hidelinks]{hyperref} % Required for links
 
 \hypersetup{
-	colorlinks=true, % Whether to color the text of links
+	colorlinks=false, % Whether to color the text of links
 	urlcolor=linkcolor, % Color for \url and \href links
 	linkcolor=linkcolor, % Color for \nameref links
 }
@@ -225,3 +225,7 @@
 \vspace{-10pt}
 #4
 }
+
+\usepackage{xspace}
+\usepackage{xcolor}
+\newcommand\linkcolor{\color{blue}}
