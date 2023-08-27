@@ -32,7 +32,9 @@
 
 \parbox[][0.05\textheight][c]{\linewidth}{ % Box to hold your name and CV title; change the fixed height as needed to match the colored box to the right
 	\centering % Horizontally center text
-	{\sffamily\Huge Josh \textbf{Booth}} % Your name
+	% \hfill
+	{\sffamily\fontsize{35}{60}\selectfont Josh \textbf{Booth}}
+	% {\sffamily\HUGE Josh \textbf{Booth}} % Your name
 }
 
 \switchcolumn % Switch to the second (right) column
@@ -49,7 +51,7 @@
 			%\raisebox{-1pt}{\small\faLink} & \href{https://joshbooth.us}{joshbooth.us} \\ % Website
 			\raisebox{-1pt}{\faHome} & Chandler, AZ \\ % Address
 			%\raisebox{-1pt}{\faGithub} & \href{https://github.com/username}{https://github.com/username} \\ % GitHub profile
-			%\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/username}{https://www.linkedin.com/in/username} \\ % LinkedIn profile
+			\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/joshua-f-booth/}{Linkedin} \\ % LinkedIn profile
 			% See fontawesome.pdf in the Fonts folder for all icons you can use
 		\end{supertabular}
 	}
@@ -84,28 +86,15 @@
 	{Microchip Technology} % Employer
 	{Applications/Marketing Engineer} % Job title
 	{ % Description
-		\item Developed various demos on PIC and AVR microcontrollers.
-		\item Wrote production-quality embedded C code for customers to use as reference.
-		\item Developed microcontroller libraries for abstracted use.
-		\item Created PCBs and structural enclosures for the demos.
-		\item Led an analytics initiative that produced to better data-driven decisions about our marketing campaign strategies.
+		\item Wrote production-quality embedded C code for customers to use as reference when creating their own designs.
+		\item Developed various demos on PIC and AVR microcontrollers for new products (see DMX Light Show, The Cold Plate). This included writing and documenting code and test conditions, completing design documents and flowcharts for the published demo.
+		\item Created and documented example libraries for abstracted use in collaboration with a local/global team.
+		\item Executed project analysis to syncronize deliverables to management. This included identifying project purposes, documenting key deliverables, code hooks, and team responsibilities as well as updating Airtable with weekly updates.
+		\item Designed PCBs and structural enclosures for the demos.
+		\item Led an analytics initiative that helped improve video retention and click-rate for marketing campaigns.
 	} 
 
-%------------------------------------------------
-
-\jobentry
-	{Jun 2017 - Jan 2022} % Duration
-	{FT/PT} % FT/PT (full time or part time)
-	{United States Naval Research Laboratory} % Employer
-	{Electrical Engineer} % Job title
-	{ % Description
-		\item Used python for various machine learning and data analytic projects such as:
-		\item Detecting and classifying objects in satellite imagery.
-		\item Recovering RF communications lost to noise (BRNN w/ GRU cells.)
-		\item Identifying promotor sequences in DNA to speed-up genome sequence identification (BRNN w/ LSTM cells.)
-	} 
-
-%------------------------------------------------
+% ---------------------------------------------
 
 \jobentry
 	{Sep 2016, Jun 2022} % Duration
@@ -119,6 +108,20 @@
 	}
 	
 
+%------------------------------------------------
+
+\jobentry
+	{Jun 2017 - Jan 2022} % Duration
+	{FT/PT} % FT/PT (full time or part time)
+	{United States Naval Research Laboratory} % Employer
+	{Electrical Engineer} % Job title
+	{ % Description
+		\item Detecting and classifying objects in satellite imagery using TFLearn and pachyderm for rapid machine learning model prototyping.
+		\item Recovered RF communications lost to noise by augmenting message passing algorithms with machine learning.
+		\item Identified promotor sequences in DNA to speed-up genome sequence identification (BRNN w/ LSTM cells.)
+	} 
+
+
 %----------------------------------------------------------------------------------------
 %	ENGINEERING PROJECTS
 %----------------------------------------------------------------------------------------
@@ -130,6 +133,26 @@
 
 \begin{paracol}{2} % Begin four-column mode
 
+% The Cold Plate
+\vspace*{-10pt}
+\leavevmode \subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{The Cold Plate \linkcolor\scriptsize\faLink}
+\hfill
+\textsc{\footnotesize{(Embedded C, analog \& power design)}}}
+
+\setlength\intextsep{0pt} % image in vertical relation to subsection title
+\begin{wrapfigure}[7]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+	\hspace*{-5pt} % how close horizontal text can be
+    \includegraphics[width=70pt]{cold_plate} %Z how large image is
+\end{wrapfigure}
+
+A reference design showing the most efficient way to perform common microcontroller tasks on a PIC16
+such as temperature measurement, fan control, current monitoring, and UI-control;
+all wrapped up into an engaging demo.\\
+
+This project demonstrates my ability to develop clean code and documentation as well as working within a team.\\
+It has become Microchip's most copied code repository.
+
+
 % DMX Light Show
 \vspace*{-10pt} % title's anchor box
 \leavevmode\subsection{DMX Light Show
@@ -137,32 +160,14 @@
 \textsc{\footnotesize{(Embedded C, analog \& power design)}}}
 
 \setlength\intextsep{-5pt} % image in vertical relation to subsection title
-\begin{wrapfigure}[8]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+\begin{wrapfigure}[7]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
 	\hspace*{-5pt} % how close horizontal text can be
     \includegraphics[width=90pt]{dmx} %Z how large image is
 \end{wrapfigure}
 
-A real-time audio processing light show integrating audio filtering, DMX, DMA, PoE, and a hardware-encoded WS2812 driver; each node using a PIC18Q71 MCU.\\ 
+A real-time audio processing light show integrating audio filtering, DMX, DMA, PoE, and a hardware-encoded WS2812 driver; each node using a PIC18Q71 MCU. Utilizing the devices CIPs, nearly no processing occurs on the CPU.\\
 
 Written C drivers for this project include UART, DMA, DMX, PWM, SPI, CLC, OP-AMP, and ADC configurations.
-
-
-% AI Driven Security system
-\vspace*{0pt}
-\leavevmode \subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \linkcolor\scriptsize\faLink}
-\hfill
-\textsc{\footnotesize{(Python, Bash, Machine Learning)}}}
-
-\setlength\intextsep{0pt} % image in relation to subsection title
-\begin{wrapfigure}[8]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
-	\hspace*{-5pt} % how close horizontal text can be
-    \includegraphics[width=60pt]{security_system} %Z how large image is
-\end{wrapfigure}
-
-A solar-powered security system that gives real-time alerts with a classified video anytime a human, vehicle, or large animal is spotted
-on the property.\\
-
-Custom python and bash programs handled data transfer throughout the mesh network and into/out of the neural network.
 
 \switchcolumn
 
@@ -184,24 +189,24 @@ An STM32 MCU running Klipper and an Rpi running custom Python controlled the pri
 Involved in the development was designing the kinematic system, thermal dynamics, and software to safely control it's operation
 while dealing with hazardous temperatures and voltages.
 
-% The Cold Plate
-\vspace*{-10pt}
-\leavevmode \subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{The Cold Plate \linkcolor\scriptsize\faLink}
-\hfill
-\textsc{\footnotesize{(Embedded C, analog \& power design)}}}
 
-\setlength\intextsep{0pt} % image in vertical relation to subsection title
-\begin{wrapfigure}[7]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+% AI Driven Security system
+\vspace*{0pt}
+\leavevmode \subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \linkcolor\scriptsize\faLink}
+\hfill
+\textsc{\footnotesize{(Python, Bash, Machine Learning)}}}
+
+\setlength\intextsep{0pt} % image in relation to subsection title
+\begin{wrapfigure}[8]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
 	\hspace*{-5pt} % how close horizontal text can be
-    \includegraphics[width=70pt]{cold_plate} %Z how large image is
+    \includegraphics[width=60pt]{security_system} %Z how large image is
 \end{wrapfigure}
 
+A solar-powered security system that gives real-time alerts with a classified video anytime a human, vehicle, or large animal is spotted
+on the property.\\
 
-A reference design showing the most efficient way to perform common microcontroller tasks on a PIC16
-such as temperature measurement, fan control, current monitoring, and UI-control;
-all wrapped up into an engaging demo.\\
+Custom python and bash programs handled data transfer throughout the mesh network and into/out of the neural network.
 
-It has become Microchip's most copied code repository.
 
 \end{paracol}
 
@@ -241,13 +246,13 @@ It has become Microchip's most copied code repository.
 	https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ApplicationNotes/ApplicationNotes/AN4889-Using-CIPs-To-Implement-Peltier-Plate-DS00004889.pdf
 	}{
 	App. Note 4889: Using Core Independent Peripherals (CIPs) to Implement a Peltier Cooled Metal Plate
-	\linkcolor\scriptsize\faLink} \\[5pt]
+	\linkcolor\scriptsize\faLink} \\
 	%------------------------------------------------
 	2023 & \href{
 	https://www.embedded.com/reducing-bom-cost-in-embedded-systems-using-advanced-mcu-peripherals/
 	}{
 	Embedded.com - Reducing BOM cost in embedded systems using advanced MCU peripherals
-	\linkcolor\scriptsize\faLink} \\[5pt]
+	\linkcolor\scriptsize\faLink} \\
 	%------------------------------------------------
 	% 2023 & \href{
 	% 	https://gateway.on24.com/wcc/eh/3685667/lp/4156150/learn-the-smart-way-to-use-on-chip-hardware-accessories-to-replace-discrete-components
@@ -259,13 +264,13 @@ It has become Microchip's most copied code repository.
 	http://joshbooth.us/wp-content/uploads/2023/08/Machine-Learning-in-Radio-Frequency-Communications.pdf
 	}{
 	Machine Learning in Radio Frequency Communications
-	\linkcolor\scriptsize\faLink} \\[5pt]
+	\linkcolor\scriptsize\faLink} \\
 	%------------------------------------------------
 	2017 & \href{
 	http://joshbooth.us/wp-content/uploads/2023/08/poster_SBME_promoter_predictions.pdf
 	}{
 	Prediction of Bacterial Promoter Sequences using Machine Learning
-	\linkcolor\scriptsize\faLink} \\[5pt]
+	\linkcolor\scriptsize\faLink} \\
 	%------------------------------------------------
 	
 \end{supertabular}
@@ -300,9 +305,9 @@ It has become Microchip's most copied code repository.
 	
 	\qualificationentry
 		{2018-2022} % Duration 
-		{Computer Engineering; Mathemtics minor} % Degree
+		{B.S. in Computer Engineering; Mathemtics minor} % Degree
 		{Summa Cum Laude; 3.98 GPA; Comp Org SI} % Honors, achievements or distinctions (e.g. first class honors)
-		{Bachelors of Science} % Department
+		{} % Department
 		{Shippensburg University of Pennsylvania} % Institution
 	
 	%------------------------------------------------

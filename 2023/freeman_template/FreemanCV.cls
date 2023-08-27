@@ -51,7 +51,7 @@
 
 \usepackage[
 	a4paper, % Paper size
-	top=1.25cm, % Top margin org 1.75cm
+	top=1cm, % Top margin org 1.75cm
 	bottom=.1cm, % Bottom margin org 1.75cm
 	left=1.5cm, % Left margin
 	right=1.5cm, % Right margin

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  24 AUG 2023 18:02
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  26 AUG 2023 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,14 +430,14 @@ LaTeX Font Info:    ... okay on input line 25.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(35.56593pt, 806.63547pt, 2.84544pt)
+* v-part:(T,H,B)=(28.45274pt, 813.74866pt, 2.84544pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=806.63547pt
+* \textheight=813.74866pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-79.38316pt
+* \topmargin=-86.49635pt
 * \headheight=28.45274pt
 * \headsep=14.22636pt
 * \topskip=10.0pt
@@ -518,126 +518,131 @@ Package hyperref Info: Link coloring OFF on input line 25.
 \openout3 = `template.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 36.
+(Font)              <7> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 36.
+(Font)              <5> on input line 38.
 
-Overfull \hbox (0.94206pt too wide) in paragraph at lines 57--57
+Overfull \hbox (0.94206pt too wide) in paragraph at lines 59--59
 [][][][][][][] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 137.
-
-File: ./images/dmx.jpg Graphic file (type bmp)
-<./images/dmx.jpg>
-
-Underfull \hbox (badness 1708) in paragraph at lines 145--146
-\TU/EBGaramond(0)/m/n/10 PoE, and a hardware-encoded WS2812
- []
-
-
-Underfull \hbox (badness 5231) in paragraph at lines 145--146
-\TU/EBGaramond(0)/m/n/10 driver; each node using a PIC18Q71
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 154.
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 154.
+(hyperref)                removing `\@ifnextchar' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 154.
+(hyperref)                removing `\FA' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 154.
+(hyperref)                removing `\FA' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 154.
-
-File: ./images/security_system.jpg Graphic file (type bmp)
-<./images/security_system.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
-
- []
-
-
-Underfull \hbox (badness 3590) in paragraph at lines 165--166
-[]\TU/EBGaramond(0)/m/n/10 Custom python and bash programs handled
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 173.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 173.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 173.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 173.
-
-File: ./images/printer.png Graphic file (type bmp)
-<./images/printer.png>
-
-Underfull \hbox (badness 6252) in paragraph at lines 181--182
-[]\TU/EBGaramond(0)/m/n/10 Designed and built a large-scale 3D printer
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 181--182
-\TU/EBGaramond(0)/m/n/10 capable of printing PEEK for biofuel refine-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 191.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 191.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\FA' on input line 191.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 191.
+(hyperref)                removing `\hfill' on input line 140.
 
 File: ./images/cold_plate.png Graphic file (type bmp)
 <./images/cold_plate.png>
 
-Underfull \hbox (badness 3078) in paragraph at lines 200--203
+Underfull \hbox (badness 3078) in paragraph at lines 148--151
 []\TU/EBGaramond(0)/m/n/10 A reference design showing the most effi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--203
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 160.
+
+File: ./images/dmx.jpg Graphic file (type bmp)
+<./images/dmx.jpg>
+
+Underfull \hbox (badness 1708) in paragraph at lines 168--169
+\TU/EBGaramond(0)/m/n/10 PoE, and a hardware-encoded WS2812
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 168--169
+\TU/EBGaramond(0)/m/n/10 driver; each node using a PIC18Q71
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 178.
+
+File: ./images/printer.png Graphic file (type bmp)
+<./images/printer.png>
+
+Underfull \hbox (badness 6252) in paragraph at lines 186--187
+[]\TU/EBGaramond(0)/m/n/10 Designed and built a large-scale 3D printer
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 186--187
+\TU/EBGaramond(0)/m/n/10 capable of printing PEEK for biofuel refine-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 197.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 197.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\FA' on input line 197.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 197.
+
+File: ./images/security_system.jpg Graphic file (type bmp)
+<./images/security_system.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 208--209
+[]\TU/EBGaramond(0)/m/n/10 Custom python and bash programs handled
+ []
+
+
+Overfull \hbox (18.87521pt too wide) in paragraph at lines 302--317
+[] 
  []
 
 [1
@@ -652,15 +657,15 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: DC06CD5969A3122A989AA02C6C38ABF8;2201.
+(rerunfilecheck)             Checksum: FD17697520734C191A5FD4DF1D2258C2;2201.
  ) 
 Here is how much of TeX's memory you used:
  15071 strings out of 475889
- 285605 string characters out of 5782010
- 1945869 words of memory out of 5000000
+ 285599 string characters out of 5782010
+ 1949869 words of memory out of 5000000
  35924 multiletter control sequences out of 15000+600000
  558741 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,13n,107p,518b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template.xdv (1 page, 42416 bytes).
+Output written on template.xdv (1 page, 49456 bytes).
