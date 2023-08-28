@@ -192,14 +192,14 @@
 % Command for entering a new qualification (education)
 \newcommand{\qualificationentry}[5]{
 	\textsc{#1} & \textbf{#2}\\ % Duration and degree
-	\expandafter\ifstrequal\expandafter{#3}{}{}{& {\small\textsc{#3}}\\} % Honors, achievements or distinctions (e.g. first class honors)
-	\expandafter\ifstrequal\expandafter{#4}{}{}{& #4\\} % Department
-	\expandafter\ifstrequal\expandafter{#5}{}{}{& \textit{#5}\\[5pt]} % Institution
+	& {\small\textsc{#3}}\\ % Honors, achievements or distinctions (e.g. first class honors)
+	& #4\\ % Department
+	& \textit{#5}\\ % Institution
 }
 
 % Command for entering a separate table row -- used for any section that uses a two column table for alignment
-\newcommand{\tableentry}[3]{
-	\textsc{#1} & #2\expandafter\ifstrequal\expandafter{#3}{}{\\}{\\[5pt]} % First the heading, then content, then a conditional insertion of whitespace if the third parameter has any content in it
+\newcommand{\tableentry}[2]{
+	\textsc{#1} & #2\\ % First the heading, then content, then a conditional insertion of whitespace if the third parameter has any content in it
 }
 
 % Command for entering a publication as a short DOI (digital object identifier) string to the publication, a link is automatically created
