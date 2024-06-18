@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  27 AUG 2023 21:31
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  27 AUG 2023 23:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -657,15 +657,15 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `JoshBoothResume.out' has not changed.
-(rerunfilecheck)             Checksum: B489E64ABBFC5A284BE3AA80308FCBC8;2253.
+(rerunfilecheck)             Checksum: B0CAB39EC5A1AC6387140D44DD339AF6;2184.
  ) 
 Here is how much of TeX's memory you used:
  15071 strings out of 475889
  285735 string characters out of 5782010
- 1949869 words of memory out of 5000000
+ 1950869 words of memory out of 5000000
  35924 multiletter control sequences out of 15000+600000
  558741 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,13n,107p,526b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on JoshBoothResume.xdv (1 page, 50552 bytes).
+Output written on JoshBoothResume.xdv (1 page, 50736 bytes).
