@@ -65,18 +65,16 @@
 %	PROFESSIONAL SUMMARY
 %----------------------------------------------------------------------------------------
 \section {Professional Summary}
-I am a self-taught multidisciplinary engineer who enjoys solving unique technical problems that need custom solutions.
+I am a multidisciplinary engineer who enjoys solving technical problems that need custom solutions.
 I excel at rapid prototyping, clear communication, and fast learning.
 My career started as a prototype engineer, building one-off solutions for clients.
 I pivoted to a technical marketer to improve my business acumen.
-
-I am now looking to join a fast-paced engineering environment of other highly-motivated individuals to help create a successful business.
-I am currently seeking to join a fast-paced engineering team of driven professionals, aiming to contribute to the success of an innovative business.
+I am looking to join a fast-paced engineering team of driven professionals, aiming to contribute to the success of an innovative business.
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{Work Experience}
+\section{Relevant Work Experience}
 
 % Each job is added with a \jobentry command. Below is an empty one to use as a template:
 
@@ -95,16 +93,21 @@ I am currently seeking to join a fast-paced engineering team of driven professio
 	{Current, from Jun 2022} % Duration
 	{FT} % FT/PT (full time or part time)
 	{Microchip Technology} % Employer
-	{Technical Marketing Engineer} % Job title
+	{8-bit MCU Technical Marketing Engineer} % Job title
 	{ % Description
-		\item Designed embedded reference designs for customers in the power systems, lighting, industrial and automotive spaces
+		\item Created reference designs and demos for embedded customers in the automotive, industrial, lighting, and power system industries
 		\begin{itemize}[topsep=-10pt]
 			\itemsep-5pt
-			\item Architected and wrote embedded C code for various 8-bit PIC and AVR microcontrollers 
-			\item Created schematics, PCBs, and plastic/metal structural enclosures for product demonstrations
+			\item Wrote bare-metal C, created schematics, PCBs, and structural enclosures for product demonstrations
+			\item Documented the designs throughly through comments, block diagrams, app notes, and video content
 		\end{itemize}
-		\item Planned and executed launches for upcoming products in the 8-bit microcontroller space
-		\item Organized app notes, use cases, and trainings to fit new products in a market niche
+
+		\item Planned and executed new product launches for the PIC and AVR microcontroller portfolio
+		\begin{itemize}[topsep=-10pt]
+			\itemsep-5pt
+			\item Researched market niche, competitor's strategy and unique value add for each new product
+			\item Developed use cases, app notes, and trainings to educate customers about the product's value add
+		\end{itemize}
 		% \item Developed prototype products on PIC and AVR microcontrollers (see DMX Light Show, The Cold Plate). This included writing and documenting code and test conditions as well as completing design documents and flowcharts.
 		% \item Created and documented example libraries for abstracted use in collaboration with a local/global team.
 
@@ -112,120 +115,148 @@ I am currently seeking to join a fast-paced engineering team of driven professio
 		% \item Led an analytics initiative that helped improve video retention and click rate for marketing campaigns.
 	} 
 
-%------------------------------------------------
+\jobentry
+	{Sep 2016, Jun 2022} % Duration
+	{FT/PT} % FT/PT (full time or part time)
+	{Mark Oil and Gas LLC.} % Employer
+	{Systems R\&D Engineer} % Job title
+	{ % Description
+		\item Designed and manufactured prototypes for unique business problems
+		\begin{itemize}[topsep=-10pt]
+			\itemsep-5pt
+			\item Ex. A completely insulated 5' tall PEEK capable 3D-printer for ONLY printing 5'x3" static mixers for biofuel refinement
+			\item Ex. AI-driven, low-power security system for real-time alerts to monitor humans/vehicles on remote commerical private property
+		\end{itemize}
+		\item Provided technical expertise for project planning, cost estimation, and feasibility studies
+		\begin{itemize}[topsep=-10pt]
+			\itemsep-5pt
+			\item Ex. A feasibility study on using a drone + paintball gun + seed-filled biodegradable paintballs to autonomously plant crops.
+		\end{itemize}
+		\item Manage client expectations and work closely with them to devise a technically capable business plan
+	}
+	
+
 
 \jobentry
 	{Jun 2017 - Jan 2022} % Duration
 	{FT/PT} % FT/PT (full time or part time)
 	{US Naval Research Lab - Space Technology Division} % Employer
-	{Electrical Engineer} % Job title
+	{Machine Learning Engineer} % Job title
 	{ % Description
-		\item Created machine learning models for detecting and classifying objects in satellite imagery to increase identification speed
-		\item Recovered RF communications lost to noise by augmenting message-passing algorithms with machine learning
-		\item Identified promotor sequences in DNA to speed up genome sequence identification using a BRNN w/ LSTM cells (co-authored infographic)
+		\item Created supervised learning model with an RNN for object detection through image classification
+		\item Preprocessed large image databases (aggregated, clean, feature extraction/engineering) to optimize model training
+		\item Designed pipeline to rapidly tune newly trained machine learning models on a custom data set based on changed parameters
 	} 
-
-% ---------------------------------------------
-
-\jobentry
-	{Sep 2016, Jun 2022} % Duration
-	{FT/PT} % FT/PT (full time or part time)
-	{Booth Oil and Gas LLC.} % Employer
-	{Prototype Engineer - Contract} % Job title
-	{ % Description
-		\item Designed and manufactured prototypes for unique business problems (see 3D PEEK Printer, AI-Driven Security System)
-		\item Offered technical expertise for project planning, cost estimation, and feasibility studies
-		\item Communicated with the client to manage their expectations and incorporate or remove features as their needs changed
-	}
-	
-
-
-
 
 %----------------------------------------------------------------------------------------
 %	ENGINEERING PROJECTS
 %----------------------------------------------------------------------------------------
 
 \vspace*{-10pt}
-\section{Sample Projects}
-\columnratio{0.5, 0.5}
-\setlength{\columnsep}{10pt}
+\section{Sample Engineering Projects}
+{
+	Unless otherwise noted, all projects were created by myself as a personal project, or for a business. I have created github repos for each project to help give some background info on each.
+	\vspace*{-7pt}
+	\begin{itemize}[leftmargin=10pt]
+		\itemsep-5pt
+		\item \href{https://github.com/jfcbooth/3dpp}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,3D PEEK Printer*}
+		- 6' tall PEEK-capable 3D printer
+		\item \href{https://github.com/microchip-pic-avr-examples/pic16f56q71-audio-light-show-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,DMX Audio Visualizer}
+		- A passive-PoE, DMX-based light show displaying an audio frequency peak on each tube
+		\item \href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,The Cold Plate**}
+		- A promotional demo of the PIC16F17146's CIPs which handle the UI, thermal management, and cooling control
+		\item \href{https://github.com/jfcbooth/security_system}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,AI-Driven Security System}
+		- Solar-powered, wireless mesh camera system with real-time object inferencing (human, car, animal classes)
+		\item \href{https://github.com/jfcbooth/hadley_electric_stand}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,Remote-controlled Telescope Mount}
+		\item 
+		\item Least significant bit stenography - 
+		\item Ultra-low-power counter - Personal project to create the lowest-power counter I could using a PIC microcontroller and familiar with AutoDesk Eagle \& Fusion 360
+		\item Developed multiple full-stack websites
+		\item (College) 
+		\item Robotics, embedded development, power electronics, AI inferencing, Data scientist \\
+		* Lead Engineer in a team of 3 \\
+		\textasteriskcentered\textasteriskcentered\, Assistant Engineer
+	\end{itemize}
+} % Description
 
-\begin{paracol}{2} % Begin four-column mode
+% \columnratio{0.5, 0.5}
+% \setlength{\columnsep}{10pt}
 
-% 3D PEEK Printer
-\vspace*{-10pt}
-\leavevmode \subsection{\href{https://github.com/jfcbooth/3dpp}{3D PEEK Printer \linkcolor\scriptsize\faLink}
-\hfill
-\textsc{\footnotesize{(Embedded C, Python, analog \& power design)}}}
+% \begin{paracol}{2} % Begin four-column mode
 
-\setlength\intextsep{-5pt} % image in relation to subsection title
-\begin{wrapfigure}[9]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
-	\hspace*{-5pt} % how close horizontal text can be
-    \includegraphics[width=60pt]{printer} %Z how large image is
-\end{wrapfigure}
+% % 3D PEEK Printer
+% \vspace*{-10pt}
+% \leavevmode \subsection{\href{https://github.com/jfcbooth/3dpp}{3D PEEK Printer \linkcolor\scriptsize\faLink}
+% \hfill
+% \textsc{\footnotesize{(Embedded C, Python, analog \& power design)}}}
 
-Designed and built a large-scale 3D printer capable of printing PEEK for biofuel refinement.\\
+% \setlength\intextsep{-5pt} % image in relation to subsection title
+% \begin{wrapfigure}[9]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+% 	\hspace*{-5pt} % how close horizontal text can be
+%     \includegraphics[width=60pt]{printer} %Z how large image is
+% \end{wrapfigure}
 
-An STM32 MCU running Klipper and a Raspberry Pi running custom Python controlled the printer.
-Involved in the development was designing the kinematic system, thermal dynamics, and software to safely control its operation
-while dealing with hazardous temperatures and voltages.
+% Designed and built a large-scale 3D printer capable of printing PEEK for biofuel refinement.\\
 
-
-% AI Driven Security system
-\vspace*{0pt}
-\leavevmode \subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \linkcolor\scriptsize\faLink}
-\hfill
-\textsc{\footnotesize{(Python, Bash, Machine Learning)}}}
-
-\setlength\intextsep{0pt} % image in relation to subsection title
-\begin{wrapfigure}[8]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
-	\hspace*{-5pt} % how close horizontal text can be
-    \includegraphics[width=60pt]{security_system} %Z how large image is
-\end{wrapfigure}
-
-A solar-powered security system that gives real-time alerts with a classified video anytime a human, vehicle or large animal is spotted
-on the property.\\
-
-Custom python and bash programs handled data transfer throughout the mesh network and into/out of the neural network.
-
-\switchcolumn
-
-% The Cold Plate
-\vspace*{-10pt}
-\leavevmode \subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{The Cold Plate \linkcolor\scriptsize\faLink}
-\hfill
-\textsc{\footnotesize{(Embedded C, analog \& power design)}}}
-
-\setlength\intextsep{0pt} % image in vertical relation to subsection title
-\begin{wrapfigure}[7]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
-	\hspace*{-5pt} % how close horizontal text can be
-    \includegraphics[width=70pt]{cold_plate} %Z how large image is
-\end{wrapfigure}
-
-A thermal pump reference design showing the most efficient way to perform temperature measurement, fan control, current monitoring, and UI control.
- It has become Microchip's most copied code repository. Development involved SIMPLIS simulation, Altium design and embedded software architecture.
-
-% This project demonstrates my ability to develop clean code and documentation as well as working within a team.\\
+% An STM32 MCU running Klipper and a Raspberry Pi running custom Python controlled the printer.
+% Involved in the development was designing the kinematic system, thermal dynamics, and software to safely control its operation
+% while dealing with hazardous temperatures and voltages.
 
 
-% DMX Light Show
-\vspace*{20pt} % title's anchor box
-\leavevmode\subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f56q71-audio-light-show-mplab-mcc}{DMX Light Show \linkcolor\scriptsize\faLink}
-\hfill
-\textsc{\footnotesize{(Embedded C, analog \& power design)}}}
+% % AI Driven Security system
+% \vspace*{0pt}
+% \leavevmode \subsection{\href{https://github.com/jfcbooth/security_system}{AI-Driven Security System \linkcolor\scriptsize\faLink}
+% \hfill
+% \textsc{\footnotesize{(Python, Bash, Machine Learning)}}}
 
-\setlength\intextsep{-5pt} % image in vertical relation to subsection title
-\begin{wrapfigure}[7]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
-	\hspace*{-5pt} % how close horizontal text can be
-    \includegraphics[width=90pt]{dmx} %Z how large image is
-\end{wrapfigure}
+% \setlength\intextsep{0pt} % image in relation to subsection title
+% \begin{wrapfigure}[8]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+% 	\hspace*{-5pt} % how close horizontal text can be
+%     \includegraphics[width=60pt]{security_system} %Z how large image is
+% \end{wrapfigure}
 
-A real-time audio processing light show integrating analog design with the microcontroller's OP-AMP, DMX, DMA, PoE, and a hardware-encoded WS2812 driver; each node used a PIC18-Q71 MCU. Utilizing the devices' CIPs, nearly no processing occurs on the CPU.
-Written C drivers for this project include UART, DMA, DMX, PWM, SPI, CLC, OP-AMP and ADC configurations.
+% A solar-powered security system that gives real-time alerts with a classified video anytime a human, vehicle or large animal is spotted
+% on the property.\\
+
+% Custom python and bash programs handled data transfer throughout the mesh network and into/out of the neural network.
+
+% \switchcolumn
+
+% % The Cold Plate
+% \vspace*{-10pt}
+% \leavevmode \subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{The Cold Plate \linkcolor\scriptsize\faLink}
+% \hfill
+% \textsc{\footnotesize{(Embedded C, analog \& power design)}}}
+
+% \setlength\intextsep{0pt} % image in vertical relation to subsection title
+% \begin{wrapfigure}[7]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+% 	\hspace*{-5pt} % how close horizontal text can be
+%     \includegraphics[width=70pt]{cold_plate} %Z how large image is
+% \end{wrapfigure}
+
+% A thermal pump reference design showing the most efficient way to perform temperature measurement, fan control, current monitoring, and UI control.
+%  It has become Microchip's most copied code repository. Development involved SIMPLIS simulation, Altium design and embedded software architecture.
+
+% % This project demonstrates my ability to develop clean code and documentation as well as working within a team.\\
 
 
-\end{paracol}
+% % DMX Light Show
+% \vspace*{20pt} % title's anchor box
+% \leavevmode\subsection{\href{https://github.com/microchip-pic-avr-examples/pic16f56q71-audio-light-show-mplab-mcc}{DMX Light Show \linkcolor\scriptsize\faLink}
+% \hfill
+% \textsc{\footnotesize{(Embedded C, analog \& power design)}}}
+
+% \setlength\intextsep{-5pt} % image in vertical relation to subsection title
+% \begin{wrapfigure}[7]{r}{0pt} % # of narrow lines, right top alignment, image L/R adjustment
+% 	\hspace*{-5pt} % how close horizontal text can be
+%     \includegraphics[width=90pt]{dmx} %Z how large image is
+% \end{wrapfigure}
+
+% A real-time audio processing light show integrating analog design with the microcontroller's OP-AMP, DMX, DMA, PoE, and a hardware-encoded WS2812 driver; each node used a PIC18-Q71 MCU. Utilizing the devices' CIPs, nearly no processing occurs on the CPU.
+% Written C drivers for this project include UART, DMA, DMX, PWM, SPI, CLC, OP-AMP and ADC configurations.
+
+
+% \end{paracol}
 
 
 % Entry 4 - image on right

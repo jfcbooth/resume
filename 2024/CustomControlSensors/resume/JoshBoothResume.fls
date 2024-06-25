@@ -152,14 +152,6 @@ INPUT JoshBoothResume.out
 INPUT ./JoshBoothResume.out
 INPUT ./JoshBoothResume.out
 OUTPUT JoshBoothResume.out
-INPUT ./images/printer.png
-INPUT ./images/printer.png
-INPUT ./images/security_system.jpg
-INPUT ./images/security_system.jpg
-INPUT ./images/cold_plate.png
-INPUT ./images/cold_plate.png
-INPUT ./images/dmx.jpg
-INPUT ./images/dmx.jpg
 OUTPUT JoshBoothResume.xdv
 INPUT JoshBoothResume.aux
 INPUT ./JoshBoothResume.out

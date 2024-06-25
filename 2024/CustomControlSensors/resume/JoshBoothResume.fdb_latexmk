@@ -1,16 +1,16 @@
 # Fdb version 4
-["xdvipdfmx"] 1718674234 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1718674235 0
-  "JoshBoothResume.xdv" 1718674234 53492 727035946b6a444d32b074423e23d751 "xelatex"
+["xdvipdfmx"] 1719280814 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1719280815 0
+  "JoshBoothResume.xdv" 1719280814 50604 a1783bc277b1216cea7be8b04cee0708 "xelatex"
   (generated)
   "JoshBoothResume.pdf"
   (rewritten before read)
-["xelatex"] 1718674232 "c:/Users/user/Documents/resume/2024/CustomControlSensors/resume/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1718674235 0
-  "Fonts/fontawesomesymbols-xeluatex.tex" 1693197469 80531 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1693197469 9951 2421ded74de437c70b097c539e50d2be ""
-  "JoshBoothResume.aux" 1718674234 2483 8777b6b54a21a24243c85fd659102fc6 "xelatex"
-  "JoshBoothResume.out" 1718674234 2293 1e0fb5307d35c3b565c5f0de5108e239 "xelatex"
-  "JoshBoothResume.tex" 1718674230 20473 df3512f7da0a050f4216bcdb70050264 ""
-  "c:/Users/user/Documents/resume/2024/CustomControlSensors/resume/JoshBoothResume.tex" 1718674230 20473 df3512f7da0a050f4216bcdb70050264 ""
+["xelatex"] 1719280813 "c:/Users/user/Documents/resume/2024/CustomControlSensors/resume/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1719280815 0
+  "Fonts/fontawesomesymbols-xeluatex.tex" 1718674283 80531 dd7669a3836773464aee6d1cfe7ee953 ""
+  "FreemanCV.cls" 1718674283 9951 2421ded74de437c70b097c539e50d2be ""
+  "JoshBoothResume.aux" 1719280814 1211 d3b853ee82a54f77ce640b6c9d5e924c "xelatex"
+  "JoshBoothResume.out" 1719280814 821 93d87d0b957f1919e18c01661f6bcbd3 "xelatex"
+  "JoshBoothResume.tex" 1719280812 22884 fb0c46412b1ea8335621b2ec7b10e7d5 ""
+  "c:/Users/user/Documents/resume/2024/CustomControlSensors/resume/JoshBoothResume.tex" 1719280812 22884 fb0c46412b1ea8335621b2ec7b10e7d5 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1690424081 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -76,10 +76,6 @@
   "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1690423670 40967 d940221f8762fd5848760382d97d1226 ""
   "c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1690433290 10795218 4cc31f14e8d2fe82dd382d0057691e6b ""
   "c:/texlive/2023/texmf.cnf" 1690433044 713 e69b156964470283e0530f5060668171 ""
-  "images/cold_plate.png" 1693197469 260149 313ad0f78db15a331ebe2d1db674de30 ""
-  "images/dmx.jpg" 1693199414 1462996 1fd6c73b74466bdad797fe4e16cd96c1 ""
-  "images/printer.png" 1693197469 48821 603bfad0fb72fef713c62b11d063cb74 ""
-  "images/security_system.jpg" 1693197469 29591 3baa89b3f9150c3dcfff36153f385301 ""
   (generated)
   "JoshBoothResume.aux"
   "JoshBoothResume.log"
