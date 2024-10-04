@@ -1,16 +1,16 @@
 # Fdb version 4
-["xdvipdfmx"] 1728000541 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1728000542 0
-  "JoshBoothResume.xdv" 1728000541 35088 324cb0d138102bab5018eaf5164875e6 "xelatex"
+["xdvipdfmx"] 1728000612 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1728000613 0
+  "JoshBoothResume.xdv" 1728000612 35088 cacdd6b869685ea383b63e83b5341b63 "xelatex"
   (generated)
   "JoshBoothResume.pdf"
   (rewritten before read)
-["xelatex"] 1728000539 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1728000542 0
-  "Fonts/fontawesomesymbols-xeluatex.tex" 1718674283 80531 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1728000428 9918 5f94646ee739ce1c88c83278477343e7 ""
-  "JoshBoothResume.aux" 1728000541 1096 c460daa2940dc613138fa160812e2a34 "xelatex"
-  "JoshBoothResume.out" 1728000541 685 8dc8ec0c5f1d4a8ec7652f0632a59509 "xelatex"
-  "JoshBoothResume.tex" 1728000539 6822 92c5d43974e809a4f787eebb3cfcb272 ""
-  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1728000539 6822 92c5d43974e809a4f787eebb3cfcb272 ""
+["xelatex"] 1728000610 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1728000613 0
+  "Fonts/fontawesomesymbols-xeluatex.tex" 1728000607 80531 dd7669a3836773464aee6d1cfe7ee953 ""
+  "FreemanCV.cls" 1728000607 9918 5f94646ee739ce1c88c83278477343e7 ""
+  "JoshBoothResume.aux" 1728000612 1096 c460daa2940dc613138fa160812e2a34 "xelatex"
+  "JoshBoothResume.out" 1728000612 685 8dc8ec0c5f1d4a8ec7652f0632a59509 "xelatex"
+  "JoshBoothResume.tex" 1728000607 6822 92c5d43974e809a4f787eebb3cfcb272 ""
+  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1728000607 6822 92c5d43974e809a4f787eebb3cfcb272 ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1690425180 1524 4414a8315f39513458b80dfc63bff03a ""
