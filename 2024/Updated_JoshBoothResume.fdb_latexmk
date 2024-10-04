@@ -1,0 +1,19 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "Updated_JoshBoothResume.xdv" "Updated_JoshBoothResume.pdf" "Updated_JoshBoothResume" 0 -1
+  "Updated_JoshBoothResume.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "Updated_JoshBoothResume.pdf"
+  (rewritten before read)
+["xelatex"] 1727918763 "c:/Users/user/Documents/resume/2024/Updated_JoshBoothResume.tex" "Updated_JoshBoothResume.xdv" "Updated_JoshBoothResume" 1727918763 2
+  "FreemanCV.cls" 0 -1 0 ""
+  "Updated_JoshBoothResume.aux" 1727918763 34 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "Updated_JoshBoothResume.tex" 1727918761 7495 98e6e4ca676ab15e0f8bc57d3fb8e40f ""
+  "c:/Users/user/Documents/resume/2024/Updated_JoshBoothResume.tex" 1727918761 7495 98e6e4ca676ab15e0f8bc57d3fb8e40f ""
+  "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1690423670 40967 d940221f8762fd5848760382d97d1226 ""
+  "c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1690433290 10795218 4cc31f14e8d2fe82dd382d0057691e6b ""
+  "c:/texlive/2023/texmf.cnf" 1690433044 713 e69b156964470283e0530f5060668171 ""
+  (generated)
+  "Updated_JoshBoothResume.aux"
+  "Updated_JoshBoothResume.log"
+  "Updated_JoshBoothResume.xdv"
+  (rewritten before read)

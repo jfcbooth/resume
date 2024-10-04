@@ -1,0 +1,143 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%---------------------------------------------------------------------------------------
+
+\documentclass[
+	12pt, % Default font size, can be between 8pt and 12pt
+]{FreemanCV}
+
+
+% Handle images:
+\graphicspath{{./images/}}
+
+
+\columnratio{0.60, 0.40} % Widths of the two columns, specified here as a ratio summing to 1 to correspond to percentages; adjust as needed for your content 
+
+
+\begin{document}
+
+\begin{paracol}{2} % Begin two-column mode
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CURRICULUM VITAE TITLE
+%----------------------------------------------------------------------------------------
+
+\parbox[][0.05\textheight][c]{\linewidth}{ 
+	\centering % Horizontally center text
+	{\sffamily\fontsize{35}{60}\selectfont Josh \textbf{Booth}}
+}
+
+\switchcolumn % Switch to the second (right) column
+
+
+
+
+\parbox[top][0.1\textheight][c]{\linewidth}{ % Box to hold the colored box; change the fixed height as needed to match the box to the left
+	\colorbox{shade}{ % Create colored box and specify background color
+		\begin{supertabular}{@{\hspace{3pt}} p{0.05\linewidth} | p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+			\raisebox{-1pt}{\faPhone} & (717) 494-6466 \\ % Phone number
+			\raisebox{-1pt}{\small\faEnvelope} & \href{mailto:boothjmail@gmail.com}{boothjmail@gmail.com} \\ % Email address
+			\raisebox{-1pt}{\faHome} & Chandler, AZ \\ % Address
+			\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/joshua-f-booth/}{Linkedin} \\ % LinkedIn profile
+			% See fontawesome.pdf in the Fonts folder for all icons you can use
+		\end{supertabular}
+	}
+	\vfill % Push content to the top of the box
+}
+\end{paracol}
+
+\vspace{-35pt}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL SUMMARY
+%----------------------------------------------------------------------------------------
+\section {Professional Summary}
+\begin{center}
+	Technical Product Marketer with expertise in product demos, technical collateral, and data-driven marketing strategies. Skilled in robotics, data science, and embedded systems.
+\end{center}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-5pt}
+\section{Relevant Work Experience}
+
+\jobentry
+	{Jun 2022, Jun 2024} % Duration
+	{FT} % FT/PT (full time or part time)
+	{Microchip Technology} % Employer
+	{Technical Product Marketer} % Job title
+	{ % Description
+		\item Led global customer interactions and was the primary technical marketing expert for the latest 8-bit PIC microcontrollers, collaborating closely with cross-functional teams, including Sales, Silicon, and Software Engineering.
+		\item Developed product and feature demonstrations (marketing campaign, code, schematics, PCBs, documentation)
+		\item Created comprehensive market strategies, including market trend and competitive analysis, to position new products and peripherals within the market, focusing on the automotive and industrial segments (ex. CLB in the PIC16F131xx)
+		\item Generated outbound marketing collateral around technical features to educate and entice customers to help drive design wins.
+		\item Leveraged data background to identify weak points in our customer journey and implemented plan to improve it, increasing journey retention by 10\%.
+		\begin{itemize}[topsep=-10pt]
+		\item Led social-media analytics initiative that helped improve impressions \& CTR by 400\%.
+		\end{itemize}
+	} 
+
+
+\jobentry
+	{Jun 2017 - Jan 2022} % Duration
+	{FT/PT} % FT/PT (full time or part time)
+	{Naval Research Lab - Space Technology Division} % Employer
+	{ML Researcher} % Job title
+	{ % Description
+		\item Created supervised learning models for object detection using image classification (PyTorch, Tensorflow, TFLearn)
+		\item Researched new algorithmic techniques to improve model performance and operation in remote environments
+		\item Conducted data cleaning, preprocessing, and feature engineering on image and text datasets to ensure high-quality data for model training
+		\item Designed Pachyderm pipeline to rapidly tune models based on new datasets
+	} 
+	
+
+	
+\jobentry
+{Sep 2016, Jun 2022} % Duration
+{FT/PT} % FT/PT (full time or part time)
+{Booth Oil and Gas LLC.} % Employer
+{Robotics Systems Engineer} % Job title
+{ % Description
+	\item Engineered unique solutions to solve various business problems where a commercial off-the-shelf solution wasn't viable
+	\item Mechanical development included running thermal \& airflow simulations, stress tests, and kinematic calculations for the movement system
+	\item Designed and manufactured custom parts using CAD
+	\item Developed firmware, schematics, performed power calculations and designed wiring.
+}
+
+%----------------------------------------------------------------------------------------
+%	ENGINEERING PROJECTS
+%----------------------------------------------------------------------------------------
+
+\vspace*{-10pt}
+\section{Sample Engineering Designs}
+{
+	This section serves as a collection of my engineering and technical marketing abilities.
+	\vspace*{-7pt}
+	\begin{itemize}[leftmargin=10pt]
+		\itemsep-5pt
+		\item \href{https://github.com/jfcbooth/3dpp}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{PEEK 3D Printer}}
+		\item \href{https://github.com/microchip-pic-avr-examples/pic16f56q71-audio-light-show-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{DMX Audio Visualizer}}
+		\item \href{https://github.com/jfcbooth/security_system}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{AI-Driven Security System}}
+		\item \href{https://github.com/jfcbooth/hadley_electric_stand}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{Remote-controlled Telescope Mount}}
+		\item \href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{The Cold Plate}}
+	\end{itemize}
+}
+
+\vspace*{-5pt}
+\section{Education}
+	\textbf{B.S. in Computer Engineering; Mathematics minor}\\ % Duration and degree
+	\small\textsc{Summa Cum Laude; 3.98 GPA; CMPE 322/120 Supplemental Instructor}\\ % Honors, achievements or distinctions (e.g. first class honors)
+	\textit{Shippensburg University of Pennsylvania}\\ % Institution
+
+\vspace*{-5pt}
+\section{Competencies}
+\begin{itemize}[leftmargin=10pt]
+	\itemsep-5pt
+	\item \textbf{Software:} C, Python, Linux, Marlin, Bash, Embedded Development, Fusion 360, KiCAD, Eagle, MPLAB X, XC8
+	\item \textbf{Hardware:} Circuit Design, Programmable Logic, PIC and AVR Microcontrollers, Hardware interfaces, EDA tools
+	\item \textbf{Personal Interests:} Chess, Piano, Track and Field, Rugby, Rock Climbing, Valorant
+\end{itemize}
+
+\vfill
+\vspace{1cm}
+\end{document}

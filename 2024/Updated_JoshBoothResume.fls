@@ -1,0 +1,6 @@
+PWD c:/Users/user/Documents/resume/2024
+INPUT c:/texlive/2023/texmf.cnf
+INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt
+INPUT c:/Users/user/Documents/resume/2024/Updated_JoshBoothResume.tex
+OUTPUT Updated_JoshBoothResume.log
