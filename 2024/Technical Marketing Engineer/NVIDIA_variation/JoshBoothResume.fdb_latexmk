@@ -1,16 +1,16 @@
 # Fdb version 4
-["xdvipdfmx"] 1728074034 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1728074035 0
-  "JoshBoothResume.xdv" 1728074034 35088 ca858c88285e604c3b5646e489b7e5ce "xelatex"
+["xdvipdfmx"] 1728001883 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1728001883 0
+  "JoshBoothResume.xdv" 1728001883 29104 cabc07fe1c54c487f551cb022a660b0e "xelatex"
   (generated)
   "JoshBoothResume.pdf"
   (rewritten before read)
-["xelatex"] 1728074033 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1728074035 0
+["xelatex"] 1728001881 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/NVIDIA_variation/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1728001883 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1728000659 80531 dd7669a3836773464aee6d1cfe7ee953 ""
   "FreemanCV.cls" 1728000659 9918 5f94646ee739ce1c88c83278477343e7 ""
-  "JoshBoothResume.aux" 1728074034 1096 c460daa2940dc613138fa160812e2a34 "xelatex"
-  "JoshBoothResume.out" 1728074034 685 8dc8ec0c5f1d4a8ec7652f0632a59509 "xelatex"
-  "JoshBoothResume.tex" 1728074028 6822 92c5d43974e809a4f787eebb3cfcb272 ""
-  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1728074028 6822 92c5d43974e809a4f787eebb3cfcb272 ""
+  "JoshBoothResume.aux" 1728001883 873 c4c7c1f91f5d07e6c1b5e3d0666f4a6c "xelatex"
+  "JoshBoothResume.out" 1728001883 451 8bf9f13de630aa42ff1854a3205aeb3e "xelatex"
+  "JoshBoothResume.tex" 1728001880 5851 47db71a2e1875c94c33f16d2994f07fe ""
+  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/NVIDIA_variation/JoshBoothResume.tex" 1728001880 5851 47db71a2e1875c94c33f16d2994f07fe ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1690425180 1524 4414a8315f39513458b80dfc63bff03a ""

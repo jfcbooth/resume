@@ -180,7 +180,7 @@
 	{{\raggedright\large #3}} % Employer
 	\hfill
 	\vspace{-5pt}
-	{\raggedleft\textsc{#1{\hspace{6pt}\footnotesize{(#2)}}}} % Duration and conditional full time/part time text
+	{\raggedleft\textsc{#1}} % Duration and conditional full time/part time text
 	{\begin{itemize}[leftmargin=10pt]
 		\itemsep-5pt
 		#5
