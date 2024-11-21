@@ -81,12 +81,19 @@
 \defaultfontfeatures{Path=Fonts/} % Specify the location of font files
 
 % The serif font used by default or explicitly with \textrm{}/\rmfamily
-\setmainfont{EBGaramond}[
-	UprightFont=*-Regular.ttf,
-	BoldFont=*-Bold.ttf,
-	BoldItalicFont=*-BoldItalic.ttf,
-	ItalicFont=*-Italic.ttf,
-	SmallCapsFont=*-SC.ttf
+% \setmainfont{EBGaramond}[
+% 	UprightFont=*-Regular.ttf,
+% 	BoldFont=*-Bold.ttf,
+% 	BoldItalicFont=*-BoldItalic.ttf,
+% 	ItalicFont=*-Italic.ttf,
+% 	SmallCapsFont=*-SC.ttf
+% ]
+
+\setmainfont{calibri}[
+	UprightFont=*-regular.ttf,
+	BoldFont=*-bold.ttf,
+	BoldItalicFont=*-bold-italic.ttf,
+	ItalicFont=*-italic.ttf,
 ]
 
 % The sans serif font used explicitly with \textsf{}\sffamily
@@ -123,7 +130,7 @@
 \titleformat
 	{\section} % Section type being modified
 	[block] % Section layout type, can be: hang, block, display, runin, leftmargin, rightmargin, drop, wrap, frame
-	{\color{headings}\scshape\LARGE\raggedright} % Text formatting of the whole section, i.e. label and title
+	{\color{headings}\scshape\Large\raggedright} % Text formatting of the whole section, i.e. label and title
 	{} % Section label (e.g. number) and its formatting
 	{0pt} % Horizontal space between the section label and title
 	{} % Code before the section title

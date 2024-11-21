@@ -26,14 +26,13 @@
 
 \switchcolumn % Switch to the second (right) column
 
-
 \parbox[top][0.1\textheight][c]{\linewidth}{ % Box to hold the colored box; change the fixed height as needed to match the box to the left
 	\colorbox{shade}{ % Create colored box and specify background color
 		\begin{supertabular}{@{\hspace{3pt}} p{0.05\linewidth} | p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
-			\raisebox{-1pt}{\faPhone} & 1+ (717) 494-6466 \\ % Phone number
+			\raisebox{-1pt}{\faPhone} & +1 (717) 494-6466 \\ % Phone number
 			\raisebox{-1pt}{\small\faEnvelope} & \href{mailto:boothjmail@gmail.com}{boothjmail@gmail.com} \\ % Email address
 			\raisebox{-1pt}{\faHome} & Chandler, AZ \\ % Address
-			\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/joshua-f-booth/}{LinkedIn} \\ % LinkedIn profile
+			\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/joshua-f-booth/}{LinkedIn \linkcolor\scriptsize\faLink\normalcolor\normalsize} \\ % LinkedIn profile
 			% See fontawesome.pdf in the Fonts folder for all icons you can use
 		\end{supertabular}
 	}
@@ -41,16 +40,16 @@
 }
 \end{paracol}
 
-\vspace{-35pt}
+\vspace{-25pt}
 
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL SUMMARY
 %----------------------------------------------------------------------------------------
-\section {Professional Summary}
-\begin{center}
-	Technical Product Marketer with expertise in product demos, technical collateral, and data-driven marketing strategies. Skilled in robotics, data science, and embedded systems.
-	\vspace{-7pt}
-\end{center}
+% \section {Professional Summary}
+% \begin{center}
+% 	Technical Product Marketer with expertise in product demos, technical collateral, and data-driven marketing strategies. Skilled in robotics, data science, and embedded systems.
+% 	\vspace{-7pt}
+% \end{center}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
@@ -58,47 +57,74 @@
 \section{Relevant Work Experience}
 
 \jobentry
-	{Jun 2022 - Present} % Duration
+	{May 2024 - Present} % Duration
 	{FT} % FT/PT (full time or part time)
 	{Microchip Technology} % Employer
-	{Technical Product Marketer} % Job title
+	{Product Marketer} % Job title
 	{ % Description
-		\item Primary technical marketing expert for the latest 8-bit PIC microcontrollers
-		\item Developed product and feature demonstrations (marketing campaign, code, schematics, PCBs, enclosures,\\documentation)
-		\item Organized marketing strategies to position new peripherals within the market (e.g. CLB in the PIC16F131xx)
-		\item Answered technical questions and provided product guidance to customers, sales engineers, and journalists
-		\item Created mass market collateral around technical features to educate and entice customers
-		\item Leveraged data background to identify weak points in our customer journey and implemented plan to improve it, increasing journey retention by 10\%
-		\begin{itemize}[topsep=-10pt]
-		\item Led social-media analytics initiative that helped improve impressions \& CTR by 400\%
+		\item Led and supported go-to-market strategies for the latest 8-bit microcontroller portfolio
+		\begin{itemize}[noitemsep, topsep=-15pt]
+			\item PIC16, PIC18, AVR Product Lines
+			\end{itemize}
+		\item Positioned new, novel peripherals within the market (e.g. Configurable Logic Block in the PIC16F131xx)
+		\item Conducted market research for the low-end microcontroller market finding competitor weaknesses, internal strengths, and produced actionable marketing strategies from the research
+		\item Coordinated with architecture, design, product, test and marketing team to drive successful and on-time product launches
+		\item Leveraged data background to identify weak points in our customer journey and implemented a plan to improve it, increasing journey retention by 10\%
+		\begin{itemize}[noitemsep, topsep=-15pt]
+		\item Increased product page views by 40\% through targeted marketing tactics
+		\item Led social-media analytics initiative that helped improve impressions and CTR by 400\%
 		\end{itemize}
 	} 
 
 
+
 \jobentry
-	{Jun 2017 - Jan 2022} % Duration
-	{FT/PT} % FT/PT (full time or part time)
-	{Naval Research Lab - Space Technology Division} % Employer
-	{ML Researcher} % Job title
+	{Jun 2022 - May 2024} % Duration
+	{FT} % FT/PT (full time or part time)
+	{Microchip Technology} % Employer
+	{Technical Marketing Engineer} % Job title
 	{ % Description
-		\item Created supervised learning models for object detection using image classification (PyTorch, Tensorflow, TFLearn)
-		\item Researched new algorithmic techniques to improve model performance and operation in remote environments
+		\item Developed product and feature demonstrations
+		\begin{itemize}[topsep=-10pt]
+			\item Marketing campaign, code, schematics, PCBs, documentation
+			\end{itemize}
+		\item Created mass market collateral around technical features to educate and entice customers 
+		\begin{itemize}[topsep=-10pt]
+			\item Videos, articles, app notes, webpages, etc.
+			\end{itemize}
+		\item Answered technical questions and provided product guidance to customers and sales engineers
+		\item Developed and maintained collateral for sales teams to drive technical discussions with customers
+		% \item Helped sales provide product suggestions to customers with specific technical needs
+	} 
+
+
+\jobentry
+	{Jun 2019 - Jan 2022} % Duration
+	{FT/PT} % FT/PT (full time or part time)
+	{U.S. Naval Research Lab} % Employer
+	{Machine Learning Researcher} % Job title
+	{ % Description
+		\item Developed new algorithmic techniques to improve image classification in remote environments with industry experts
+		\item Published literature about using machine learning in radio frequency communications and identifying protein promoter sequences
+		\item Created supervised learning models for object detection using image classification
 		\item Conducted data cleaning, preprocessing, and feature engineering on image and text datasets to ensure high-quality data for model training
-		\item Designed Pachyderm pipeline to rapidly tune models based on new datasets
 	} 
 	
 
 	
 \jobentry
-{Sep 2016 - Jun 2022} % Duration
+{Sep 2016 - Jun 2019} % Duration
 {FT/PT} % FT/PT (full time or part time)
-{Mark Oil and Gas LLC.} % Employer
+{Booth Oil and Gas LLC.} % Employer
 {Robotics Systems Engineer} % Job title
 { % Description
-	\item Engineered unique solutions to solve various business problems where a commercial off-the-shelf solution wasn't viable
-	\item Mechanical development included running thermal \& airflow simulations, stress tests, and kinematic calculations for the movement system
-	\item Designed and manufactured custom parts using CAD
-	\item Developed firmware, schematics, performed power calculations and designed wiring.
+	\item Engineered unique solutions to solve various business problems where existing solutions weren't viable
+	\begin{itemize}[topsep=-10pt]
+		\item Custom oil refinement pipeline, security system, auto-crop planter
+	\end{itemize}
+	\item Designed and proposed viable solutions after performing feasibility study
+	\item Mechanical development included running thermal \& airflow simulations, stress tests, and kinematic calculations, and part development in CAD
+	\item Developed firmware, schematics, performed power calculations and designed wiring
 }
 
 %----------------------------------------------------------------------------------------
@@ -112,28 +138,28 @@
 	\vspace*{-7pt}
 	\begin{itemize}[leftmargin=10pt]
 		\itemsep-5pt
-		\item \href{https://github.com/jfcbooth/3dpp}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{PEEK 3D Printer}}
-		\item \href{https://github.com/microchip-pic-avr-examples/pic16f56q71-audio-light-show-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{DMX Audio Visualizer}}
-		\item \href{https://github.com/jfcbooth/security_system}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{AI-Driven Security System}}
-		\item \href{https://github.com/jfcbooth/hadley_electric_stand}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{Remote-controlled Telescope Mount}}
-		\item \href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{The Cold Plate}}
+		\item \href{https://github.com/jfcbooth/3dpp}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{PEEK 3D Printer}} (CAD, Marlin, STM32, RTOS)
+		\item \href{https://github.com/microchip-pic-avr-examples/pic16f56q71-audio-light-show-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{DMX Audio Visualizer}} (Embedded C, PCB layout, Analog Design, Serial Communication)
+		\item \href{https://github.com/jfcbooth/security_system}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{AI-Driven Security System}} (Tensorflow, TFLearn, Python, Linux, Bash)
+		% \item \href{https://github.com/jfcbooth/hadley_electric_stand}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{Remote-controlled Telescope Mount}}
+		% \item \href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{The Cold Plate}}
 	\end{itemize}
 }
 
 % \vspace*{-10pt}
 \section{Education}
 	\textbf{B.S. in Computer Engineering; Mathematics minor}\\ % Duration and degree
-	\small\textsc{Summa Cum Laude; 3.98 GPA; CMPE 322/120 Supplemental Instructor}\\ % Honors, achievements or distinctions (e.g. first class honors)
+	\small\textsc{3.98 GPA; CMPE 322/120 Supplemental Instructor}\\ % Honors, achievements or distinctions (e.g. first class honors)
 	\textit{Shippensburg University of Pennsylvania}\\ % Institution
 
 % \vspace*{-10pt}
-\section{Competencies}
-\begin{itemize}[leftmargin=10pt]
-	\itemsep-5pt
-	\item \textbf{Software:} C, Python, Linux, Marlin, Bash, Embedded Development, Fusion 360, KiCAD, Eagle, MPLAB X, XC8
-	\item \textbf{Hardware:} Circuit Design, Programmable Logic, PIC and AVR Microcontrollers, Hardware interfaces, EDA tools
-	\item \textbf{Personal Interests:} Chess, Piano, Track and Field, Rugby, Rock Climbing, Valorant
-\end{itemize}
+% \section{Competencies}
+% \begin{itemize}[leftmargin=10pt]
+% 	\itemsep-5pt
+% 	\item \textbf{Software:} C, Python, Linux, Marlin, Bash, Embedded Development, Fusion 360, KiCAD, Eagle, MPLAB X, XC8
+% 	\item \textbf{Hardware:} Circuit Design, Programmable Logic, PIC and AVR Microcontrollers, Hardware interfaces, EDA tools
+% 	\item \textbf{Personal Interests:} Chess, Piano, Track and Field, Rugby, Rock Climbing
+% \end{itemize}
 
 \vfill
 \vspace{1cm}

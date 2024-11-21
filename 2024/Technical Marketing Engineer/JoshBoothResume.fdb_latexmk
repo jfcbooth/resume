@@ -1,16 +1,16 @@
 # Fdb version 4
-["xdvipdfmx"] 1728074034 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1728074035 0
-  "JoshBoothResume.xdv" 1728074034 35088 ca858c88285e604c3b5646e489b7e5ce "xelatex"
+["xdvipdfmx"] 1732199883 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1732199883 0
+  "JoshBoothResume.xdv" 1732199882 36096 453d3453995935a6cd8eee883512f271 "xelatex"
   (generated)
   "JoshBoothResume.pdf"
   (rewritten before read)
-["xelatex"] 1728074033 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1728074035 0
+["xelatex"] 1732199881 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1732199883 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1728000659 80531 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1728000659 9918 5f94646ee739ce1c88c83278477343e7 ""
-  "JoshBoothResume.aux" 1728074034 1096 c460daa2940dc613138fa160812e2a34 "xelatex"
-  "JoshBoothResume.out" 1728074034 685 8dc8ec0c5f1d4a8ec7652f0632a59509 "xelatex"
-  "JoshBoothResume.tex" 1728074028 6822 92c5d43974e809a4f787eebb3cfcb272 ""
-  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1728074028 6822 92c5d43974e809a4f787eebb3cfcb272 ""
+  "FreemanCV.cls" 1728476962 10076 4ee453cd317ad45a5a212bd6a6d51bbb ""
+  "JoshBoothResume.aux" 1732199882 870 a642ab78ec5fb88a03b99bf9ea30c9ea "xelatex"
+  "JoshBoothResume.out" 1732199882 436 8c268ae178e56c00de83c04cf5c32881 "xelatex"
+  "JoshBoothResume.tex" 1732199880 8218 70c5f5cdb7b3e3642c18b2e19e7abaed ""
+  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1732199880 8218 70c5f5cdb7b3e3642c18b2e19e7abaed ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1690425180 1524 4414a8315f39513458b80dfc63bff03a ""
