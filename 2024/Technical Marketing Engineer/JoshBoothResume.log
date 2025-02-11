@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  21 NOV 2024 07:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  10 FEB 2025 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -538,12 +538,12 @@ Overfull \hbox (0.55275pt too wide) in paragraph at lines 40--40
  []
 
 
-Overfull \hbox (3.79362pt too wide) in paragraph at lines 40--40
-[][][][][][][] 
+Overfull \hbox (17.2052pt too wide) in paragraph at lines 78--78
+[]\TU/calibri(0)/m/n/12 Provided technical guidance for new products and features (e.g. Configurable Logic Block in the PIC16F131xx) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--154
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
 
  []
 
@@ -558,12 +558,12 @@ Package rerunfilecheck Info: File `JoshBoothResume.out' has not changed.
 (rerunfilecheck)             Checksum: 8C268AE178E56C00DE83C04CF5C32881;436.
  ) 
 Here is how much of TeX's memory you used:
- 14989 strings out of 475889
- 283781 string characters out of 5782010
- 1939869 words of memory out of 5000000
- 35840 multiletter control sequences out of 15000+600000
+ 14988 strings out of 475889
+ 283749 string characters out of 5782010
+ 1936869 words of memory out of 5000000
+ 35839 multiletter control sequences out of 15000+600000
  561453 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,13n,107p,437b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,107p,437b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on JoshBoothResume.xdv (1 page, 36096 bytes).
+Output written on JoshBoothResume.xdv (1 page, 33992 bytes).

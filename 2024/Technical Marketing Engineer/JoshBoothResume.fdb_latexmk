@@ -1,16 +1,16 @@
 # Fdb version 4
-["xdvipdfmx"] 1732199883 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1732199883 0
-  "JoshBoothResume.xdv" 1732199882 36096 453d3453995935a6cd8eee883512f271 "xelatex"
+["xdvipdfmx"] 1739251105 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1739251106 0
+  "JoshBoothResume.xdv" 1739251105 33992 c933228d08606a80eeb9962d8da6f326 "xelatex"
   (generated)
   "JoshBoothResume.pdf"
   (rewritten before read)
-["xelatex"] 1732199881 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1732199883 0
+["xelatex"] 1739251103 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1739251106 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1728000659 80531 dd7669a3836773464aee6d1cfe7ee953 ""
   "FreemanCV.cls" 1728476962 10076 4ee453cd317ad45a5a212bd6a6d51bbb ""
-  "JoshBoothResume.aux" 1732199882 870 a642ab78ec5fb88a03b99bf9ea30c9ea "xelatex"
-  "JoshBoothResume.out" 1732199882 436 8c268ae178e56c00de83c04cf5c32881 "xelatex"
-  "JoshBoothResume.tex" 1732199880 8218 70c5f5cdb7b3e3642c18b2e19e7abaed ""
-  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1732199880 8218 70c5f5cdb7b3e3642c18b2e19e7abaed ""
+  "JoshBoothResume.aux" 1739251105 870 a642ab78ec5fb88a03b99bf9ea30c9ea "xelatex"
+  "JoshBoothResume.out" 1739251105 436 8c268ae178e56c00de83c04cf5c32881 "xelatex"
+  "JoshBoothResume.tex" 1739251103 8590 9685f3b1401ffd458226605b97f4feee ""
+  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1739251103 8590 9685f3b1401ffd458226605b97f4feee ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1690425180 1524 4414a8315f39513458b80dfc63bff03a ""

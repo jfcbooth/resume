@@ -21,13 +21,13 @@
 
 \parbox[][0.05\textheight][c]{\linewidth}{ 
 	\centering % Horizontally center text
-	{\sffamily\fontsize{35}{60}\selectfont Josh \textbf{Booth}}
+	{\sffamily\fontsize{35}{60}\selectfont \textbf{Josh Booth}}
 }
 
 \switchcolumn % Switch to the second (right) column
 
 \parbox[top][0.1\textheight][c]{\linewidth}{ % Box to hold the colored box; change the fixed height as needed to match the box to the left
-	\colorbox{shade}{ % Create colored box and specify background color
+	% \colorbox{shade}{ % Create colored box and specify background color
 		\begin{supertabular}{@{\hspace{3pt}} p{0.05\linewidth} | p{0.775\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
 			\raisebox{-1pt}{\faPhone} & +1 (717) 494-6466 \\ % Phone number
 			\raisebox{-1pt}{\small\faEnvelope} & \href{mailto:boothjmail@gmail.com}{boothjmail@gmail.com} \\ % Email address
@@ -35,7 +35,7 @@
 			\raisebox{-1pt}{\faLinkedinSquare} & \href{https://www.linkedin.com/in/joshua-f-booth/}{LinkedIn \linkcolor\scriptsize\faLink\normalcolor\normalsize} \\ % LinkedIn profile
 			% See fontawesome.pdf in the Fonts folder for all icons you can use
 		\end{supertabular}
-	}
+	% }
 	\vfill % Push content to the top of the box
 }
 \end{paracol}
@@ -55,25 +55,26 @@
 %----------------------------------------------------------------------------------------
 
 \section{Relevant Work Experience}
-
+% 131, 132, q35, 175,
 \jobentry
 	{May 2024 - Present} % Duration
 	{FT} % FT/PT (full time or part time)
 	{Microchip Technology} % Employer
-	{Product Marketer} % Job title
+	{Technical Product Marketer} % Job title
 	{ % Description
-		\item Led and supported go-to-market strategies for the latest 8-bit microcontroller portfolio
-		\begin{itemize}[noitemsep, topsep=-15pt]
-			\item PIC16, PIC18, AVR Product Lines
-			\end{itemize}
-		\item Positioned new, novel peripherals within the market (e.g. Configurable Logic Block in the PIC16F131xx)
-		\item Conducted market research for the low-end microcontroller market finding competitor weaknesses, internal strengths, and produced actionable marketing strategies from the research
-		\item Coordinated with architecture, design, product, test and marketing team to drive successful and on-time product launches
-		\item Leveraged data background to identify weak points in our customer journey and implemented a plan to improve it, increasing journey retention by 10\%
-		\begin{itemize}[noitemsep, topsep=-15pt]
-		\item Increased product page views by 40\% through targeted marketing tactics
-		\item Led social-media analytics initiative that helped improve impressions and CTR by 400\%
-		\end{itemize}
+		\item Launched 4 product families (40+ CPNs/family) in PIC16 \& PIC18 product lines
+		% \begin{itemize}[noitemsep, topsep=-15pt]
+		% 	\item PIC16, PIC18, AVR Product Lines
+		% 	\end{itemize}
+		% \item Positioned new, novel peripherals within the market (e.g. Configurable Logic Block in the PIC16F131xx)
+		\item Provided technical guidance for new products and features (e.g. Configurable Logic Block in the PIC16F131xx)
+		\item Developed strong understanding of the low-end microcontroller market (<256KB flash) % finding competitor weaknesses, internal strengths, and produced actionable marketing strategies from the research
+		\item Worked closely with PE team lead and PE team (architecture, design, test, marketing) to keep product focused on target market
+		% \item Leveraged data background to identify weak points in our customer journey and implemented a plan to improve it, increasing journey retention by 10\%
+		% \begin{itemize}[noitemsep, topsep=-15pt]
+		% \item Increased product page views by 40\% through targeted marketing tactics
+		% \item Led social-media analytics initiative that helped improve impressions and CTR by 400\%
+		% \end{itemize}
 	} 
 
 
@@ -84,16 +85,13 @@
 	{Microchip Technology} % Employer
 	{Technical Marketing Engineer} % Job title
 	{ % Description
-		\item Developed product and feature demonstrations
+		\item Built reference designs for PIC16 and PIC18 microcontrollers (code, schematics, PCBs, documentation)
+		\item Created technical, easy to follow documentation (videos, application notes, webpages) to educate sales engineers and customers 
 		\begin{itemize}[topsep=-10pt]
-			\item Marketing campaign, code, schematics, PCBs, documentation
+			\item Served as the favorite technical resource for sales by creating presentations on new products and features to highlight customer benefits.
 			\end{itemize}
-		\item Created mass market collateral around technical features to educate and entice customers 
-		\begin{itemize}[topsep=-10pt]
-			\item Videos, articles, app notes, webpages, etc.
-			\end{itemize}
-		\item Answered technical questions and provided product guidance to customers and sales engineers
-		\item Developed and maintained collateral for sales teams to drive technical discussions with customers
+		\item Subject matter expert for digital peripherals (CLB, CLC, PWM, DMA, DMX, CWG) to provide design guidance to customers and sales engineers
+		% \item Developed and maintained collateral for sales teams to drive technical discussions with customers
 		% \item Helped sales provide product suggestions to customers with specific technical needs
 	} 
 
@@ -101,11 +99,11 @@
 \jobentry
 	{Jun 2019 - Jan 2022} % Duration
 	{FT/PT} % FT/PT (full time or part time)
-	{U.S. Naval Research Lab} % Employer
-	{Machine Learning Researcher} % Job title
+	{U.S. Naval Research Lab - Space Technology Division} % Employer
+	{ML Researcher} % Job title
 	{ % Description
-		\item Developed new algorithmic techniques to improve image classification in remote environments with industry experts
-		\item Published literature about using machine learning in radio frequency communications and identifying protein promoter sequences
+		\item Published new algorithmic techniques to improve image classification in remote environments with industry experts
+		\item Primary author on paper about using machine learning in radio frequency communications, co-author for identifying protein promoter sequences
 		\item Created supervised learning models for object detection using image classification
 		\item Conducted data cleaning, preprocessing, and feature engineering on image and text datasets to ensure high-quality data for model training
 	} 
@@ -118,13 +116,13 @@
 {Booth Oil and Gas LLC.} % Employer
 {Robotics Systems Engineer} % Job title
 { % Description
-	\item Engineered unique solutions to solve various business problems where existing solutions weren't viable
+	\item Full-stack prototype engineer to create custom solutions where commericial products weren't viable
 	\begin{itemize}[topsep=-10pt]
-		\item Custom oil refinement pipeline, security system, auto-crop planter
+		\item Custom oil refinement pipeline, AI-driven mesh security system, crop auto-planter
 	\end{itemize}
 	\item Designed and proposed viable solutions after performing feasibility study
-	\item Mechanical development included running thermal \& airflow simulations, stress tests, and kinematic calculations, and part development in CAD
-	\item Developed firmware, schematics, performed power calculations and designed wiring
+	\item Mechanical development included running thermal and airflow simulations, stress tests, and kinematic calculations, and part development in CAD
+	\item Built firmware and schematics, assembled design, then iterated through engineering process until prototype worked
 }
 
 %----------------------------------------------------------------------------------------
@@ -141,8 +139,8 @@
 		\item \href{https://github.com/jfcbooth/3dpp}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{PEEK 3D Printer}} (CAD, Marlin, STM32, RTOS)
 		\item \href{https://github.com/microchip-pic-avr-examples/pic16f56q71-audio-light-show-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{DMX Audio Visualizer}} (Embedded C, PCB layout, Analog Design, Serial Communication)
 		\item \href{https://github.com/jfcbooth/security_system}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{AI-Driven Security System}} (Tensorflow, TFLearn, Python, Linux, Bash)
-		% \item \href{https://github.com/jfcbooth/hadley_electric_stand}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{Remote-controlled Telescope Mount}}
-		% \item \href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{The Cold Plate}}
+		\item \href{https://github.com/jfcbooth/hadley_electric_stand}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{Remote-controlled Telescope Mount}}
+		\item \href{https://github.com/microchip-pic-avr-examples/pic16f17146-cold-plate-mplab-mcc}{\linkcolor\scriptsize\faLink\normalcolor\normalsize\,\textbf{The Cold Plate}}
 	\end{itemize}
 }
 
