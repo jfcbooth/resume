@@ -45,6 +45,10 @@
 
 \usepackage{enumitem}
 
+\usepackage[none]{hyphenat}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
 %----------------------------------------------------------------------------------------
 %	MARGINS
 %----------------------------------------------------------------------------------------
@@ -183,7 +187,7 @@
 % Command for adding a new job entry (work experience)
 \newcommand{\jobentry}[5]{
 	{{\raggedright\large{\textbf{#4}}}} % Job title
-	{} | {} % adds spacing
+	{}\textbf{|}{} % adds spacing
 	{{\raggedright\large #3}} % Employer
 	\hfill
 	\vspace{-5pt}

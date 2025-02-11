@@ -1,16 +1,16 @@
 # Fdb version 4
-["xdvipdfmx"] 1739251105 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1739251106 0
-  "JoshBoothResume.xdv" 1739251105 33992 c933228d08606a80eeb9962d8da6f326 "xelatex"
+["xdvipdfmx"] 1739259611 "JoshBoothResume.xdv" "JoshBoothResume.pdf" "JoshBoothResume" 1739259612 0
+  "JoshBoothResume.xdv" 1739259611 37756 0e5e60caa97f694ba704e8bff18ec055 "xelatex"
   (generated)
   "JoshBoothResume.pdf"
   (rewritten before read)
-["xelatex"] 1739251103 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1739251106 0
+["xelatex"] 1739259610 "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" "JoshBoothResume.xdv" "JoshBoothResume" 1739259612 0
   "Fonts/fontawesomesymbols-xeluatex.tex" 1728000659 80531 dd7669a3836773464aee6d1cfe7ee953 ""
-  "FreemanCV.cls" 1728476962 10076 4ee453cd317ad45a5a212bd6a6d51bbb ""
-  "JoshBoothResume.aux" 1739251105 870 a642ab78ec5fb88a03b99bf9ea30c9ea "xelatex"
-  "JoshBoothResume.out" 1739251105 436 8c268ae178e56c00de83c04cf5c32881 "xelatex"
-  "JoshBoothResume.tex" 1739251103 8590 9685f3b1401ffd458226605b97f4feee ""
-  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1739251103 8590 9685f3b1401ffd458226605b97f4feee ""
+  "FreemanCV.cls" 1739255081 10160 65b357c4a20fcee3d29039371cce64f2 ""
+  "JoshBoothResume.aux" 1739259611 979 8b14a19d9049e6cd5c7e68c75f0fe904 "xelatex"
+  "JoshBoothResume.out" 1739259611 539 9275234ceb8145936eb1beeaba9bfecb "xelatex"
+  "JoshBoothResume.tex" 1739259609 9942 edfc76c7c1c3bb70de340da44d9b4cee ""
+  "c:/Users/user/Documents/resume/2024/Technical Marketing Engineer/JoshBoothResume.tex" 1739259609 9942 edfc76c7c1c3bb70de340da44d9b4cee ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1690426808 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1690432986 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1690425180 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -66,6 +66,7 @@
   "c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty" 1690427556 13887 0d9aeb0c8de393ccff89a8c740a0ac64 ""
   "c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def" 1690427556 14247 b5446170da36f22f2489e5f7d943db5c ""
   "c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def" 1690427556 117118 5595bc841ebb373d40a4c1ec21cfadda ""
+  "c:/texlive/2023/texmf-dist/tex/latex/hyphenat/hyphenat.sty" 1690427630 5798 0437b031e663035b68539cf7ac7c8eeb ""
   "c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1690428088 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1690428090 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1690428103 31866 ab7ff58e8b7eb91f5882424abf292263 ""

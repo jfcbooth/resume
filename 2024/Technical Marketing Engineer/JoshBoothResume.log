@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  10 FEB 2025 22:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.26)  11 FEB 2025 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -96,6 +96,10 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box53
 \enit@count@id=\count192
 \enitdp@description=\count193
+) (c:/texlive/2023/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language87
+LaTeX Info: Redefining \_ on input line 43.
 ) (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -389,7 +393,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 177.
+Package hyperref Info: Option `colorlinks' set `false' on input line 181.
  (c:/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )) (./JoshBoothResume.aux)
@@ -538,12 +542,22 @@ Overfull \hbox (0.55275pt too wide) in paragraph at lines 40--40
  []
 
 
-Overfull \hbox (17.2052pt too wide) in paragraph at lines 78--78
-[]\TU/calibri(0)/m/n/12 Provided technical guidance for new products and features (e.g. Configurable Logic Block in the PIC16F131xx) 
+Overfull \hbox (19.38905pt too wide) in paragraph at lines 89--89
+[]\TU/calibri(0)/m/n/12 Created technical, easy-to-follow documentation (videos, application notes, webpages) to educate customers 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--152
+Overfull \hbox (23.91092pt too wide) in paragraph at lines 120--120
+[]\TU/calibri(0)/m/n/12 Published new algorithmic techniques to improve image classification in remote environments in collaboration
+ []
+
+
+Overfull \hbox (16.50858pt too wide) in paragraph at lines 120--120
+[]\TU/calibri(0)/m/n/12 Primary author on paper titled ”Using Machine Learning in Radio Frequency Communications” and co-author
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--167
 
  []
 
@@ -555,15 +569,15 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 Package rerunfilecheck Info: File `JoshBoothResume.out' has not changed.
-(rerunfilecheck)             Checksum: 8C268AE178E56C00DE83C04CF5C32881;436.
+(rerunfilecheck)             Checksum: 9275234CEB8145936EB1BEEABA9BFECB;539.
  ) 
 Here is how much of TeX's memory you used:
- 14988 strings out of 475889
- 283749 string characters out of 5782010
- 1936869 words of memory out of 5000000
- 35839 multiletter control sequences out of 15000+600000
- 561453 words of font info for 82 fonts, out of 8000000 for 9000
+ 15037 strings out of 475889
+ 284697 string characters out of 5782010
+ 1940869 words of memory out of 5000000
+ 35883 multiletter control sequences out of 15000+600000
+ 561461 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,12n,107p,437b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on JoshBoothResume.xdv (1 page, 33992 bytes).
+Output written on JoshBoothResume.xdv (1 page, 37756 bytes).
